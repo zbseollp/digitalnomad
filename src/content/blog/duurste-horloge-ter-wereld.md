@@ -5,6 +5,7 @@ pubDate: 2024-08-09
 updatedDate: 2024-08-09
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2024/08/pexels-cottonbro-5083223-scaled.jpg"
 metaTitle: "Duurste horloge ter wereld: een symbool van vakmanschap en luxe - Digitalnomad.nl"
 ---
 

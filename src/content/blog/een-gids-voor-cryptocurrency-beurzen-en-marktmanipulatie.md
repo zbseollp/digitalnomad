@@ -4,6 +4,7 @@ description: "Met de opkomst van cryptocurrency staan veel oplichters op die pro
 pubDate: 2023-05-29
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/11/art-rachen-sM4r-swmcoY-unsplash-scaled.jpg"
 metaTitle: "Een gids voor cryptocurrency-beurzen en marktmanipulatie - Digitalnomad.nl"
 ---
 

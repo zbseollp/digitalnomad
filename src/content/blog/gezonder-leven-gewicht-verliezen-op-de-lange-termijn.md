@@ -4,6 +4,7 @@ description: "Een aanzienlijk deel van de bevolking heeft als doel om gewicht kw
 pubDate: 2022-04-09
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/04/pexels-anete-lusina-6331142.jpg"
 metaTitle: "Gezonder leven: gewicht verliezen op de lange termijn - Digitalnomad.nl"
 ---
 

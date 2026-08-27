@@ -4,6 +4,7 @@ description: "Halloween, het griezeligste feest van het jaar, is altijd een idea
 pubDate: 2023-09-20
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/09/pexels-yaroslav-shuraev-5604228-1.jpg"
 metaTitle: "Wat zijn de populairste Halloween-outfits dit jaar? - Digitalnomad.nl"
 ---
 

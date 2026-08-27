@@ -5,6 +5,7 @@ pubDate: 2022-11-28
 updatedDate: 2022-12-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2022/11/yasmina-h-p8DjPfqEhW0-unsplash-scaled.jpg"
 metaTitle: "183 dagen regeling - uitleg & voorwaarden"
 ---
 

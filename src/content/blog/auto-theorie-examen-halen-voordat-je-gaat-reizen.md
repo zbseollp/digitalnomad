@@ -4,6 +4,7 @@ description: "Misschien plan je een roadtrip naar een ander deel van Nederland, 
 pubDate: 2022-09-11
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/02/pexels-photo-325193.jpeg"
 metaTitle: "Auto theorie examen halen voordat je gaat reizen - Digitalnomad.nl"
 ---
 

@@ -4,6 +4,7 @@ description: "De vrijheid om de wereld rond te reizen terwijl je werkt klinkt al
 pubDate: 2023-08-10
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/08/pexels-pixabay-259200-1.jpg"
 metaTitle: "Een overzicht van de financiële gevolgen voor een digital nomad - Digitalnomad.nl"
 ---
 

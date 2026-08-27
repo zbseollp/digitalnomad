@@ -4,6 +4,7 @@ description: "Het is bijna niet voor te stellen dat de nieuwere generaties nooit
 pubDate: 2023-09-20
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/09/pexels-plann-4549408.jpg"
 metaTitle: "Dit is waarom we niet meer zonder mobiele telefoon kunnen - Digitalnomad.nl"
 ---
 

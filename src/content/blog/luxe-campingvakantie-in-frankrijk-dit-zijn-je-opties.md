@@ -4,6 +4,7 @@ description: "Frankrijk is een populaire bestemming voor een campingvakantie. Me
 pubDate: 2024-06-27
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2024/06/aldeen-li-jH2vyek3t8Q-unsplash.jpg"
 metaTitle: "Luxe campingvakantie in Frankrijk, dit zijn je opties - Digitalnomad.nl"
 ---
 

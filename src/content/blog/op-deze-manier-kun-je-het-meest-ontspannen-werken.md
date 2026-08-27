@@ -4,6 +4,7 @@ description: "In Nederland werken we gemiddeld 31 uur per dag, ondanks dat dit m
 pubDate: 2023-02-22
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/02/pexels-andrea-piacquadio-846080-2.jpg"
 metaTitle: "Op deze manier kun je het meest ontspannen werken - Digitalnomad.nl"
 ---
 

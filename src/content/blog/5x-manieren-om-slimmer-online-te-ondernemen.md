@@ -4,6 +4,7 @@ description: "Ben je met jouw bedrijf volop bezig met het aanbieden van je diens
 pubDate: 2022-11-30
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/11/nomadddd.jpg"
 metaTitle: "5x manieren om slimmer online te ondernemen - Digitalnomad.nl"
 ---
 

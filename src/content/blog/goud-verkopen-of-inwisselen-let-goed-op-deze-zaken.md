@@ -4,6 +4,7 @@ description: "Ben je in het bezit van goud en heb je op korte termijn geld nodig
 pubDate: 2023-03-21
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/03/pexels-pixabay-47047.jpg"
 metaTitle: "Goud verkopen of inwisselen? Let goed op deze zaken! - Digitalnomad.nl"
 ---
 

@@ -4,6 +4,7 @@ description: "Nu het in Nederland sinds 1 januari 2023 verboden is om nog ongeri
 pubDate: 2023-02-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/02/gokkasten1.png"
 metaTitle: "Gokbedrijven zijn bang voor restricties op advertenties in Nederland - Digitalnomad.nl"
 ---
 

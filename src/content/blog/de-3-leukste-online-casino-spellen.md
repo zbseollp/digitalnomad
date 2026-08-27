@@ -4,6 +4,7 @@ description: "Als u op zoek bent naar wat spanning en uw geluk wilt beproeven in
 pubDate: 2022-03-10
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/02/pexels-photo-325193.jpeg"
 metaTitle: "De 3 leukste online casino spellen - Digitalnomad.nl"
 ---
 

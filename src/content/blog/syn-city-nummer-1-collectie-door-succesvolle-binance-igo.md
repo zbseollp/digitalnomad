@@ -4,6 +4,7 @@ description: "Singapore, Singapore – SYN CITY, de allereerste maffia-themed me
 pubDate: 2021-12-09
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2021/12/Syn-city.jpg"
 metaTitle: "SYN CITY Nummer 1 Collectie door succesvolle Binance IGO - Digitalnomad.nl"
 ---
 

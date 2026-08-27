@@ -4,6 +4,7 @@ description: "Na een tijdje hard werken of studeren is niets zo lekker als een p
 pubDate: 2022-10-27
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/10/pexels-pixabay-46148.jpg"
 metaTitle: "Op vakantie in Spanje - Digitalnomad.nl"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2025-08-10
 updatedDate: 2025-08-10
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2025/08/uitschrijven-adres-bij-gemeente.jpg"
 metaTitle: "Uitschrijven gemeente zonder nieuw adres? Dit moet je weten"
 ---
 

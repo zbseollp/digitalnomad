@@ -4,6 +4,7 @@ description: "Omscholing op latere leeftijd wordt steeds populairder onder werkn
 pubDate: 2023-02-07
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/11/pexels-pixabay-37347.jpg"
 metaTitle: "Omscholingen op latere leeftijd worden steeds populairder - Digitalnomad.nl"
 ---
 

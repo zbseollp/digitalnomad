@@ -4,6 +4,7 @@ description: "De afgelopen jaren is gokken in Nederland in raptempo razend popul
 pubDate: 2023-12-18
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2023/12/casinoowereld.jpg"
 metaTitle: "Favoriete casinobestemmingen van Nederlandse spelers - Digitalnomad.nl"
 ---
 

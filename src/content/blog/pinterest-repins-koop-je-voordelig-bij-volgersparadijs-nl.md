@@ -5,6 +5,7 @@ pubDate: 2024-04-30
 updatedDate: 2024-04-30
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2024/04/pinterest2-scaled.jpg"
 metaTitle: "Pinterest repins koop je voordelig bij volgersparadijs.nl - Digitalnomad.nl"
 ---
 

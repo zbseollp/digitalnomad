@@ -5,6 +5,7 @@ pubDate: 2024-07-24
 updatedDate: 2023-06-29
 author: "Redactie Digitalnomad.nl"
 categories: ["Bestemmingen"]
+image: "/wp-content/uploads/2022/06/pana.svg"
 metaTitle: "Wonen en werken in Ecuador: Complete GIDS & Voordelen"
 ---
 

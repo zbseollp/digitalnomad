@@ -5,6 +5,7 @@ pubDate: 2022-11-29
 updatedDate: 2022-12-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2022/11/malte-helmhold-lRVJH0hdDjY-unsplash-scaled.jpg"
 metaTitle: "Hoe verdien je geld met YouTube? | Digital Nomad"
 ---
 

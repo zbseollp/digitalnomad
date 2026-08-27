@@ -4,6 +4,7 @@ description: "Ben jij net gestart met ondernemen en kan je niet te lang wachten 
 pubDate: 2023-01-19
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/01/pexels-kindel-media-7651555.jpg"
 metaTitle: "Dit kan een factoring bedrijf betekenen voor jouw onderneming - Digitalnomad.nl"
 ---
 

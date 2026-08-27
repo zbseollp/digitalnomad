@@ -5,6 +5,7 @@ pubDate: 2023-12-23
 updatedDate: 2023-12-23
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/12/pexels-fox-225157.jpg"
 metaTitle: "Het belang van camera-accessoires voor beginners - Digitalnomad.nl"
 ---
 

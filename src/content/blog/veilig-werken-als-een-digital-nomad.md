@@ -5,6 +5,7 @@ pubDate: 2022-07-24
 updatedDate: 2022-07-24
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/07/pexels-jill-wellington-39853.jpg"
 metaTitle: "Veilig werken als een digital nomad - Digitalnomad.nl"
 ---
 

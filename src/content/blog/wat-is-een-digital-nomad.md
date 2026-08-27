@@ -5,6 +5,7 @@ pubDate: 2025-08-10
 updatedDate: 2025-08-10
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2025/08/wat-is-een-digital-nomad.jpg"
 metaTitle: "Wat is een digital nomad? Betekenis en tips"
 ---
 

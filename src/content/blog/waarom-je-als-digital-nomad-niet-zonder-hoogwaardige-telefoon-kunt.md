@@ -5,6 +5,7 @@ pubDate: 2023-08-04
 updatedDate: 2023-10-27
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws", "Reizen"]
+image: "/wp-content/uploads/2023/08/iphoneee.jpg"
 metaTitle: "Waarom je als digital nomad niet zonder hoogwaardige telefoon kunt - Digitalnomad.nl"
 ---
 

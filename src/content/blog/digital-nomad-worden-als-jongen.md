@@ -4,6 +4,7 @@ description: "Jongens hebben een unieke kans als het gaat om reizen en werken op
 pubDate: 2022-04-26
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/02/dubai-tower-arab-khalifa-162031.jpeg"
 metaTitle: "Digital nomad worden als jongen - Digitalnomad.nl"
 ---
 

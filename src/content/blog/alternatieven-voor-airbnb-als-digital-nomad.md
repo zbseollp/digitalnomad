@@ -4,6 +4,7 @@ description: "Als digitale nomade ben je altijd op zoek naar nieuwe manieren om 
 pubDate: 2022-05-29
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/05/Couchsurfing.jpg"
 metaTitle: "Alternatieven voor airbnb als digital nomad - Digitalnomad.nl"
 ---
 

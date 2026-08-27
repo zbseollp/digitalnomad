@@ -5,6 +5,7 @@ pubDate: 2022-08-16
 updatedDate: 2022-08-16
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/08/pexels-som-thapa-magar-3496763-scaled.jpg"
 metaTitle: "Malta: waarom digital nomads hun weg zoeken in Europese online casino's - Digitalnomad.nl"
 ---
 

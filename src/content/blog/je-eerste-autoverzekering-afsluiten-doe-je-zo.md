@@ -4,6 +4,7 @@ description: "Voor het eerst als nieuwe coureur de weg op in je eigen auto kan b
 pubDate: 2022-09-30
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/09/pexels-andrea-piacquadio-3760067-9.jpg"
 metaTitle: "Je eerste autoverzekering afsluiten doe je zo - Digitalnomad.nl"
 ---
 

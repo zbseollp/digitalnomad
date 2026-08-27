@@ -4,6 +4,7 @@ description: "Parkeren in de stad kan een uitdaging zijn. Met de toenemende druk
 pubDate: 2024-03-13
 author: "Redactie Digitalnomad.nl"
 categories: ["Vervoer"]
+image: "/wp-content/uploads/2024/03/pexels-garvin-st-villier-3015595.jpg"
 metaTitle: "Slim parkeren: Tips om stressvrij te parkeren in de stad - Digitalnomad.nl"
 ---
 

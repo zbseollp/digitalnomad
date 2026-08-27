@@ -4,6 +4,7 @@ description: "Leven als digital nomad is een lifestyle die je veel vrijheid geef
 pubDate: 2022-11-23
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/11/pexels-oleksandr-pidvalnyi-9822732.jpg"
 metaTitle: "Hoe word je beter vindbaar op internet als digital nomad - Digitalnomad.nl"
 ---
 

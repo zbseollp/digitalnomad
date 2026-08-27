@@ -4,6 +4,7 @@ description: "Sokken, vaak beschouwd als een alledaags kledingstuk, hebben een r
 pubDate: 2023-12-22
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/12/pexels-lukas-horak-69315.jpg"
 metaTitle: "De vele gezichten van sokken: Van warmte tot stijl - Digitalnomad.nl"
 ---
 

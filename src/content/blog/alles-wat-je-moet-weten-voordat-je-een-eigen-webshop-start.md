@@ -5,6 +5,7 @@ pubDate: 2023-04-28
 updatedDate: 2023-04-28
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/03/pexels-andrea-piacquadio-7164111-scaled.jpg"
 metaTitle: "Alles wat je moet weten voordat je een eigen webshop start! - Digitalnomad.nl"
 ---
 

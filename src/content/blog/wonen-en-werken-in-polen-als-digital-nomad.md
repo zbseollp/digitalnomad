@@ -4,6 +4,7 @@ description: "Polen is een populaire bestemming voor digital nomads. Niet alleen
 pubDate: 2023-12-05
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/12/pexels-jade-971512.jpg"
 metaTitle: "Wonen en werken in Polen als digital nomad - Digitalnomad.nl"
 ---
 

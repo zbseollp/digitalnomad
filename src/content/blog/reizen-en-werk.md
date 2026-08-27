@@ -5,6 +5,7 @@ pubDate: 2022-07-12
 updatedDate: 2022-07-12
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws", "Reizen"]
+image: "/wp-content/uploads/2022/07/digital1.jpg"
 metaTitle: "Reizen en werk - Digitalnomad.nl"
 ---
 

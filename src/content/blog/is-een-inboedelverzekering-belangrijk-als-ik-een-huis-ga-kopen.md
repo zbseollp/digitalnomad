@@ -4,6 +4,7 @@ description: "De spullen in je woning zijn natuurlijk waardevol. Vaak hebben ze 
 pubDate: 2023-07-03
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/03/pexels-andrea-piacquadio-7164111-scaled.jpg"
 metaTitle: "Is een inboedelverzekering belangrijk als ik een huis ga kopen? - Digitalnomad.nl"
 ---
 

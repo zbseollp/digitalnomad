@@ -5,6 +5,7 @@ pubDate: 2023-12-14
 updatedDate: 2023-12-14
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2023/12/Insta-1.jpg"
 metaTitle: "Echte connecties op Instagram - Digitalnomad.nl"
 ---
 

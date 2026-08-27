@@ -5,6 +5,7 @@ pubDate: 2022-09-05
 updatedDate: 2022-10-15
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/02/pexels-photo-325193.jpeg"
 metaTitle: "Digital Nomad tip: werken als online casino host op Malta - Digitalnomad.nl"
 ---
 

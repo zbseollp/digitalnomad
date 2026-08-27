@@ -5,6 +5,7 @@ pubDate: 2024-08-09
 updatedDate: 2024-08-09
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2024/08/archiefopslagbedrijf-1.jpeg"
 metaTitle: "Archiefopslagbedrijf: De Noodzaak van Efficiënte Documentbeheer - Digitalnomad.nl"
 ---
 

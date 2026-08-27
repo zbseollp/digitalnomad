@@ -4,6 +4,7 @@ description: "Timmer je aan de weg met je bedrijf en wil je graag nóg meer pote
 pubDate: 2024-07-24
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/08/pexels-picjumbocom-196655-2.jpg"
 metaTitle: "Zo helpt een e-commerce bureau ondernemers - Digitalnomad.nl"
 ---
 

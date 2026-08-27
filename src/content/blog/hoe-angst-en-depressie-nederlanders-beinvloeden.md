@@ -4,6 +4,7 @@ description: "Angst en depressie zijn twee van de meest voorkomende psychische a
 pubDate: 2022-11-15
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/11/pexels-pixabay-236151.jpg"
 metaTitle: "Hoe angst en depressie Nederlanders beïnvloeden? - Digitalnomad.nl"
 ---
 

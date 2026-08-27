@@ -4,6 +4,7 @@ description: "Het is de wens van velen, wonen en werken in het buitenland. Maar 
 pubDate: 2024-01-10
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws", "Reizen"]
+image: "/wp-content/uploads/2024/01/pexels-pixabay-163016-3.jpg"
 metaTitle: "Een aanrijding in het buitenland, wat nu? - Digitalnomad.nl"
 ---
 

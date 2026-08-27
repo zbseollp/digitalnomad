@@ -5,6 +5,7 @@ pubDate: 2022-11-28
 updatedDate: 2022-12-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2022/11/sincerely-media-ylveRpZ8L1s-unsplash-scaled.jpg"
 metaTitle: "Geld verdienen met bloggen - Begin vandaag nog jouw eigen blog"
 ---
 

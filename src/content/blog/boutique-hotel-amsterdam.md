@@ -5,6 +5,7 @@ pubDate: 2024-02-16
 updatedDate: 2024-02-16
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2024/02/bedroom-bed.jpg"
 metaTitle: "Boutique hotel Amsterdam - Digitalnomad.nl"
 ---
 

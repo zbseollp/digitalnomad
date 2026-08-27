@@ -4,6 +4,7 @@ description: "Betalen met cryptocurrency wordt steeds populairder. Dat is logisc
 pubDate: 2022-04-12
 author: "Redactie Digitalnomad.nl"
 categories: ["Crypto"]
+image: "/wp-content/uploads/2022/04/pexels-antoni-shkraba-5583964.jpg"
 metaTitle: "De top vijf dingen die betaald worden met crypto - Digitalnomad.nl"
 ---
 

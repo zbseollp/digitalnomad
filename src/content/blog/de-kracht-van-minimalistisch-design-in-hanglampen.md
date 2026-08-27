@@ -4,6 +4,7 @@ description: "In een wereld die steeds drukker en complexer wordt, is er een gro
 pubDate: 2023-12-23
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/12/pexels-max-rahubovskiy-7587733-1.jpg"
 metaTitle: "De kracht van minimalistisch design in hanglampen - Digitalnomad.nl"
 ---
 

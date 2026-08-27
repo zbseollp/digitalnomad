@@ -5,6 +5,7 @@ pubDate: 2023-03-27
 updatedDate: 2023-03-27
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/12/Best-betaalde-youtubers-scaled-e1670311878991.jpg"
 metaTitle: "Zo kun jij een betaling doen in het online casino - Digitalnomad.nl"
 ---
 

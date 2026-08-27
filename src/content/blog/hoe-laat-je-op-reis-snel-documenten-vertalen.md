@@ -5,6 +5,7 @@ pubDate: 2023-09-26
 updatedDate: 2023-09-26
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/09/key-5105878_1280.jpg"
 metaTitle: "Hoe laat je op reis snel documenten vertalen? - Digitalnomad.nl"
 ---
 

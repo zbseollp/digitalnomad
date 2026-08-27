@@ -4,6 +4,7 @@ description: "Nederland is een van de meest progressieve landen in Europa als he
 pubDate: 2022-08-02
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2022/07/Online-casino-Nederland.jpg"
 metaTitle: "De toekomst van online casino's in Nederland - Digitalnomad.nl"
 ---
 

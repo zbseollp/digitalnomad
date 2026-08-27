@@ -5,6 +5,7 @@ pubDate: 2023-04-04
 updatedDate: 2023-04-04
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/04/bruiloft3.jpg"
 metaTitle: "Dit zijn de 8 beste plekken om op huwelijksreis te gaan - Digitalnomad.nl"
 ---
 

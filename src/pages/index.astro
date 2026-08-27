@@ -47,10 +47,10 @@ const pijlers = [
           <li>{landen.length} landen met woon- en werkinfo</li>
           <li>Praktische fiscale uitleg</li>
         </ul>
-        <p style="margin:0">
+        <div class="cta-row">
           <a class="btn" href="/bestemmingen/">Bekijk bestemmingen</a>
-          <a class="btn btn-sky" href="/blog/" style="margin-left:10px">Lees de blog</a>
-        </p>
+          <a class="btn btn-on-navy no-arrow" href="/blog/">Lees de blog</a>
+        </div>
       </div>
       <div>
         <img src="/wp-content/uploads/2021/07/illustration1.png" alt="" loading="eager" style="width:100%;height:auto" />
@@ -62,8 +62,8 @@ const pijlers = [
     <div class="wrap">
       <div class="grid grid-4">
         {pijlers.map((p) => (
-          <a class="card" href={p.href}>
-            <img src={p.icon} alt="" width="44" height="44" style="margin-bottom:12px" loading="lazy" />
+          <a class="tile" href={p.href}>
+            <span class="ico" aria-hidden="true"><img src={p.icon} alt="" loading="lazy" /></span>
             <h3>{p.titel}</h3>
             <p>{p.tekst}</p>
           </a>
@@ -74,32 +74,42 @@ const pijlers = [
 
   <section class="tint">
     <div class="wrap">
-      <h2 class="section-title">Laatste blogs</h2>
-      <p class="section-sub">Nieuws, ervaringen en praktische uitleg voor iedereen die locatie-onafhankelijk werkt.</p>
+      <div class="section-head-row">
+        <div class="section-head">
+          <h2 class="section-title">Laatste blogs</h2>
+          <p class="section-sub">Nieuws, ervaringen en praktische uitleg voor iedereen die locatie-onafhankelijk werkt.</p>
+        </div>
+        <a class="btn btn-ghost" href="/blog/">Alle artikelen</a>
+      </div>
       <PostGrid posts={posts} />
-      <p style="margin-top:26px"><a class="btn btn-ghost" href="/blog/">Alle artikelen</a></p>
     </div>
   </section>
 
   <section>
     <div class="wrap">
-      <h2 class="section-title">Populaire bestemmingen</h2>
-      <p class="section-sub">
-        Per stad vind je kosten van levensonderhoud, klimaat, veiligheid, activiteiten en workation-plekken.
-      </p>
+      <div class="section-head-row">
+        <div class="section-head">
+          <h2 class="section-title">Populaire bestemmingen</h2>
+          <p class="section-sub">
+            Per stad vind je kosten van levensonderhoud, klimaat, veiligheid, activiteiten en workation-plekken.
+          </p>
+        </div>
+        <a class="btn btn-ghost" href="/bestemmingen/">Alle {steden.length} bestemmingen</a>
+      </div>
       <div class="chips">
         {steden.slice(0, 48).map((s) => (
           <a href={`/${s.id}/`}>{s.id.replace(/-/g, ' ')}</a>
         ))}
       </div>
-      <p style="margin-top:26px"><a class="btn btn-ghost" href="/bestemmingen/">Alle {steden.length} bestemmingen</a></p>
     </div>
   </section>
 
   <section class="tint">
     <div class="wrap">
-      <h2 class="section-title">Wonen en werken per land</h2>
-      <p class="section-sub">Visum, kosten, belasting en praktische zaken per land op een rij.</p>
+      <div class="section-head">
+        <h2 class="section-title">Wonen en werken per land</h2>
+        <p class="section-sub">Visum, kosten, belasting en praktische zaken per land op een rij.</p>
+      </div>
       <div class="chips">
         {landen.map((s) => (
           <a href={`/${s.id}/`}>{s.id.replace('wonen-werken-in-', '').replace(/-/g, ' ')}</a>

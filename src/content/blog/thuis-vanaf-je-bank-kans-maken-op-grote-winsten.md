@@ -4,6 +4,7 @@ description: "Ben je op zoek naar een leuke en spannende manier om je vrije tijd
 pubDate: 2022-10-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/09/3137.jpeg"
 metaTitle: "Thuis vanaf je bank kans maken op grote winsten - Digitalnomad.nl"
 ---
 

@@ -4,6 +4,7 @@ description: "Cryptocurrencies zijn dezer dagen een rage. Bijna iedereen heeft w
 pubDate: 2022-05-27
 author: "Redactie Digitalnomad.nl"
 categories: ["Crypto"]
+image: "/wp-content/uploads/2021/09/Rectangle-38.jpg"
 metaTitle: "Wat zijn de risico's van cryptomunten kopen? - Digitalnomad.nl"
 ---
 

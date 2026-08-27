@@ -5,6 +5,7 @@ pubDate: 2022-05-19
 updatedDate: 2022-05-19
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/02/pexels-photo-325193.jpeg"
 metaTitle: "Voordelen van CBD tijdens het werken - Digitalnomad.nl"
 ---
 

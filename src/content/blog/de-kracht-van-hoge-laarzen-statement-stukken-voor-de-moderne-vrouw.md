@@ -5,6 +5,7 @@ pubDate: 2023-12-22
 updatedDate: 2023-12-22
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/06/pexels-peter-olexa-4012966.jpg"
 metaTitle: "De kracht van hoge laarzen: Statement stukken voor de moderne vrouw - Digitalnomad.nl"
 ---
 

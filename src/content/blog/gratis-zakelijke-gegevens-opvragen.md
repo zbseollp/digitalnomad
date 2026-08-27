@@ -5,6 +5,7 @@ pubDate: 2025-05-05
 updatedDate: 2025-05-05
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2025/05/apple.jpg"
 ---
 
 ![apple](/wp-content/uploads/2025/05/apple-1024x682.jpg)

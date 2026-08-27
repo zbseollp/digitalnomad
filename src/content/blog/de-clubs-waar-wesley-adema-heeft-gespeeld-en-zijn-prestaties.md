@@ -5,6 +5,7 @@ pubDate: 2024-09-26
 updatedDate: 2024-09-26
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2024/09/658_1644050890-e1727370864334.jpg"
 metaTitle: "De clubs waar Wesley Adema heeft gespeeld en zijn prestaties - Digitalnomad.nl"
 ---
 

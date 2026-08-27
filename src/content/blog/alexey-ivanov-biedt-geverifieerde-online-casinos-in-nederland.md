@@ -4,6 +4,7 @@ description: "Beoordeling van vertrouwde online casino’s van Casino Zeus Het t
 pubDate: 2022-08-11
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/07/pexels-alex-qian-2343475.jpg"
 metaTitle: "Alexey Ivanov biedt geverifieerde online casino's in Nederland - Digitalnomad.nl"
 ---
 

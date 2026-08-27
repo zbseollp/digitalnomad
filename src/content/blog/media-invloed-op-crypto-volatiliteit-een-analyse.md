@@ -4,6 +4,7 @@ description: "Media is overal om ons heen en kan een grote invloed hebben op ons
 pubDate: 2023-05-19
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/05/digitalnomad.jpg"
 metaTitle: "Media-invloed op crypto-volatiliteit: Een analyse - Digitalnomad.nl"
 ---
 

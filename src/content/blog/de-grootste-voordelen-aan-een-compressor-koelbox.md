@@ -5,6 +5,7 @@ pubDate: 2023-04-26
 updatedDate: 2023-04-26
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/04/pexels-level-media-3016430.jpg"
 metaTitle: "De grootste voordelen aan een compressor koelbox - Digitalnomad.nl"
 ---
 

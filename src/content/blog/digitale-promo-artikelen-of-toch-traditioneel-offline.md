@@ -4,6 +4,7 @@ description: "Als je als digital nomad aan de slag wil gaan, is wel handig om oo
 pubDate: 2025-01-02
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2023/06/pexels-peter-olexa-4012966.jpg"
 metaTitle: "Digitale promo artikelen of toch traditioneel offline? - Digitalnomad.nl"
 ---
 

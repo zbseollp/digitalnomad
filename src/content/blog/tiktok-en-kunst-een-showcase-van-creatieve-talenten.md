@@ -5,6 +5,7 @@ pubDate: 2024-02-21
 updatedDate: 2024-02-21
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2024/02/tiktok-300x300.jpg"
 metaTitle: "TikTok en kunst: een showcase van creatieve talenten - Digitalnomad.nl"
 ---
 

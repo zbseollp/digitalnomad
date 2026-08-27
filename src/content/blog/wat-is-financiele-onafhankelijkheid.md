@@ -5,6 +5,7 @@ pubDate: 2022-07-13
 updatedDate: 2022-07-13
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2022/07/pexels-jill-wellington-39853.jpg"
 metaTitle: "Wat is financiële onafhankelijkheid? - Digitalnomad.nl"
 ---
 

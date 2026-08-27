@@ -4,6 +4,7 @@ description: "Cryptocurrencies zijn nu helemaal in, en met reden. Ze bieden een 
 pubDate: 2022-11-09
 author: "Redactie Digitalnomad.nl"
 categories: ["Crypto"]
+image: "/wp-content/uploads/2022/05/cryptoclanafbeelding.jpg"
 metaTitle: "Wat kunnen we van cryptocurrency verwachten in de toekomst? - Digitalnomad.nl"
 ---
 

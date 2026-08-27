@@ -5,6 +5,7 @@ pubDate: 2022-09-23
 updatedDate: 2022-10-21
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/09/pexels-cottonbro-3943714.jpg"
 metaTitle: "5 dingen die u moet weten over pensioen voor zzp’ers - Digitalnomad.nl"
 ---
 

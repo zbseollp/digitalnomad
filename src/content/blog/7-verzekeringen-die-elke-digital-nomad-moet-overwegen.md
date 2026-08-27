@@ -5,6 +5,7 @@ pubDate: 2023-12-10
 updatedDate: 2023-12-14
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/11/pexels-kindel-media-7688374-1.jpg"
 metaTitle: "7 Verzekeringen die elke digital nomad moet overwegen - Digitalnomad.nl"
 ---
 

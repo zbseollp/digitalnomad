@@ -5,6 +5,7 @@ pubDate: 2023-05-11
 updatedDate: 2023-05-11
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/05/pexels-samer-daboul-1212818-1.jpg"
 metaTitle: "Werken waar je maar wil? Dit online marketingbureau doet het! - Digitalnomad.nl"
 ---
 

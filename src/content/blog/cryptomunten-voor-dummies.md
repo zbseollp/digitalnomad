@@ -5,6 +5,7 @@ pubDate: 2022-12-06
 updatedDate: 2022-12-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Crypto"]
+image: "/wp-content/uploads/2022/09/3137.jpeg"
 metaTitle: "Cryptomunten voor dummies - Digitalnomad.nl"
 ---
 

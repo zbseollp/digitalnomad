@@ -5,6 +5,7 @@ pubDate: 2023-12-07
 updatedDate: 2023-12-07
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/12/pexels-pixabay-221011.jpg"
 metaTitle: "Freelancen is je ticket naar de digital nomad lifestyle - Digitalnomad.nl"
 ---
 

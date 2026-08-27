@@ -5,6 +5,7 @@ pubDate: 2022-08-08
 updatedDate: 2022-08-11
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2022/07/Casino-digitale-nomaden.jpg"
 metaTitle: "Echt geld winnen in online casino's - Digitalnomad.nl"
 ---
 

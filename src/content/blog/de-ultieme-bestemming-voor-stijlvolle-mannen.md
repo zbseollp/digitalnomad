@@ -4,6 +4,7 @@ description: "Ontdek waarom mannenstyle.nl dé bestemming is voor stijlvolle man
 pubDate: 2023-03-22
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/03/pexels-andrea-piacquadio-7164111-scaled.jpg"
 metaTitle: "Ontdek waarom mannenstyle.nl dé bestemming is voor stijlvolle mannen die hun eigen unieke look willen creëren"
 ---
 

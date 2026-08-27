@@ -5,6 +5,7 @@ pubDate: 2022-07-13
 updatedDate: 2022-07-13
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/07/pexels-alex-qian-2343475.jpg"
 metaTitle: "Wakker worden en aan de eettafel werken, het kan gewoon - Digitalnomad.nl"
 ---
 

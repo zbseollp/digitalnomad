@@ -5,6 +5,7 @@ pubDate: 2021-12-01
 updatedDate: 2021-12-01
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2021/12/solajump.jpeg"
 metaTitle: "Solajump, het eerste play-to-win NFT spel op Solana, gaat kort spel nieuw leven inblazen - Digitalnomad.nl"
 ---
 

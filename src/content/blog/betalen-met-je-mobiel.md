@@ -4,6 +4,7 @@ description: "Ben je wel eens op stap, zonder geld bij de hand om iets te betale
 pubDate: 2022-06-23
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2021/10/46f1750db906313820fbdbbcac205b27.jpg"
 metaTitle: "Betalen met je mobiel - Digitalnomad.nl"
 ---
 

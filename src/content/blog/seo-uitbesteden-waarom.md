@@ -4,6 +4,7 @@ description: "Als ondernemer wil je natuurlijk dat jouw website goed vindbaar is
 pubDate: 2023-02-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/02/pexels-pixabay-270637-2.jpg"
 metaTitle: "SEO uitbesteden, waarom? - Digitalnomad.nl"
 ---
 

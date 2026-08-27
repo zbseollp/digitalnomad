@@ -4,6 +4,7 @@ description: "Overweeg je om een digital nomad te worden en te gaan werken in Po
 pubDate: 2022-06-28
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws", "Reizen"]
+image: "/wp-content/uploads/2022/06/pexels-lisa-1666472.jpg"
 metaTitle: "Werken als digital nomad in Portugal - Digitalnomad.nl"
 ---
 

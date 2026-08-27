@@ -5,6 +5,7 @@ pubDate: 2023-05-01
 updatedDate: 2023-05-01
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/05/pexels-greenwish-13240226.jpg"
 metaTitle: "Hoe is twitter geweest onder Elon Musk? Een diepere blik - Digitalnomad.nl"
 ---
 

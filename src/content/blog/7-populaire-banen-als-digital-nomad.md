@@ -4,6 +4,7 @@ description: "De afgelopen jaren hoor je het woord ‘digital nomad’ steeds va
 pubDate: 2023-10-30
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/10/pexels-andrea-piacquadio-842912.jpg"
 metaTitle: "7 populaire banen als digital nomad - Digitalnomad.nl"
 ---
 

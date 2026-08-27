@@ -4,6 +4,7 @@ description: "Als je op vakantie naar Macau wil kan je genoeg pakketreizen boeke
 pubDate: 2022-12-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/12/pexels-%E7%AB%9F%E5%82%B2-%E6%B1%A4-4369493.jpg"
 metaTitle: "Op vakantie naar Macau - Digitalnomad.nl"
 ---
 

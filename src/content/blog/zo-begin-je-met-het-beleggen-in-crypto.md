@@ -4,6 +4,7 @@ description: "Heb je al eens gekeken naar cryptocurrency? Cryptomunten komen in 
 pubDate: 2023-02-08
 author: "Redactie Digitalnomad.nl"
 categories: ["Crypto", "Nieuws"]
+image: "/wp-content/uploads/2022/05/cryptoclanafbeelding.jpg"
 metaTitle: "Zo begin je met het beleggen in crypto - Digitalnomad.nl"
 ---
 

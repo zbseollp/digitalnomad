@@ -5,6 +5,7 @@ pubDate: 2022-11-28
 updatedDate: 2022-12-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2022/11/art-rachen-sM4r-swmcoY-unsplash-scaled.jpg"
 metaTitle: "Geld verdienen met crypto | de beste manieren in 2022"
 ---
 

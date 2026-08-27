@@ -5,6 +5,7 @@ pubDate: 2022-02-10
 updatedDate: 2022-02-21
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/02/dubai-tower-arab-khalifa-162031-768x1152.jpeg"
 metaTitle: "Een bedrijf starten in Dubai | Digitalnomad.nl"
 ---
 

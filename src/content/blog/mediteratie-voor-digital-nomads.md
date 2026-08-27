@@ -4,6 +4,7 @@ description: "Word je als digitale nomade geplaagd door slapeloosheid en angst? 
 pubDate: 2022-06-26
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/04/pexels-anete-lusina-6331142.jpg"
 metaTitle: "Mediteratie voor digital nomads - Digitalnomad.nl"
 ---
 

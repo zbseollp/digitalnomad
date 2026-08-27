@@ -4,6 +4,7 @@ description: "Het klinkt voor veel mensen als een droom. Reizen en werken combin
 pubDate: 2022-12-08
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/12/pexels-samer-daboul-1212818.jpg"
 metaTitle: "Leven als een digital nomad, hoe doe je dat? - Digitalnomad.nl"
 ---
 

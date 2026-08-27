@@ -4,6 +4,7 @@ description: "Werken vanuit het buitenland lijkt voor velen een droom. Het klink
 pubDate: 2024-09-30
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2024/09/pexels-olly-927022.jpg"
 metaTitle: "Zo begin je met werken vanuit het buitenland - Digitalnomad.nl"
 ---
 

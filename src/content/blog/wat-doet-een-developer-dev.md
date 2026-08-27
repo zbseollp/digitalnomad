@@ -5,6 +5,7 @@ pubDate: 2023-03-21
 updatedDate: 2023-03-21
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/03/pexels-christina-morillo-1181244.jpg"
 metaTitle: "Wat doet een Developer (Dev)? - Digitalnomad.nl"
 ---
 

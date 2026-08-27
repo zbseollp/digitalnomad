@@ -4,6 +4,7 @@ description: "De rol van bedrijfsdatabases is in de loop der jaren geëvolueerd 
 pubDate: 2024-05-24
 author: "Redactie Digitalnomad.nl"
 categories: ["Bedrijven"]
+image: "/wp-content/uploads/2024/05/digitization-6497133_640.jpg"
 metaTitle: "De uitdagingen en oplossingen van bedrijfsdatabasebeheer - Digitalnomad.nl"
 ---
 

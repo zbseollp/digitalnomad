@@ -4,6 +4,7 @@ description: "Werken in het buitenland is voor veel mensen een mooie kans, maar 
 pubDate: 2024-11-19
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2024/11/7cc8caf8-33b2-4ffb-9d72-9b4f8b79df31.jpg"
 metaTitle: "Zo zorg je voor goede telefonie als je in het buitenland werkt - Digitalnomad.nl"
 ---
 

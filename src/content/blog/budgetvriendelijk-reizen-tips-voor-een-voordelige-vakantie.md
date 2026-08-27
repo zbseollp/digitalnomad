@@ -4,6 +4,7 @@ description: "Reizen verrijkt de geest en verruimt de horizon, maar het kan ook 
 pubDate: 2023-11-14
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/08/pexels-picjumbocom-196655-2.jpg"
 metaTitle: "Budgetvriendelijk Reizen: Tips voor een Voordelige Vakantie - Digitalnomad.nl"
 ---
 

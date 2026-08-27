@@ -4,6 +4,7 @@ description: "Het kan moeilijk zijn om op de hoogte te blijven van alle verschil
 pubDate: 2022-05-13
 author: "Redactie Digitalnomad.nl"
 categories: ["Crypto"]
+image: "/wp-content/uploads/2022/05/cryptoclanafbeelding.jpg"
 metaTitle: "Welke crypto coins worden het meest verhandeld? - Digitalnomad.nl"
 ---
 

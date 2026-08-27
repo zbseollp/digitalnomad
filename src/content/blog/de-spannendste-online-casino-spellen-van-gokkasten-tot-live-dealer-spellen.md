@@ -4,6 +4,7 @@ description: "Welkom bij ons artikel over de spannendste online casino spellen! 
 pubDate: 2023-05-24
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/07/Casino-digitale-nomaden.jpg"
 metaTitle: "De spannendste online casino spellen: Van gokkasten tot live dealer spellen - Digitalnomad.nl"
 ---
 

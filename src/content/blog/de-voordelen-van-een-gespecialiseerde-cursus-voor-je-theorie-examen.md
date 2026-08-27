@@ -4,6 +4,7 @@ description: "Het behalen van je theorie-examen is een cruciale stap op weg naar
 pubDate: 2024-02-17
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/11/pexels-pixabay-164634-7.jpg"
 metaTitle: "De voordelen van een gespecialiseerde cursus voor je theorie-examen - Digitalnomad.nl"
 ---
 

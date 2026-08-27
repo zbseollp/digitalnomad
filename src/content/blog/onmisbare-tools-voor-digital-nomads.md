@@ -4,6 +4,7 @@ description: "De groep mensen die leeft als digital nomad is al een kwart eeuw a
 pubDate: 2022-10-13
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/08/pexels-picjumbocom-196655-2.jpg"
 metaTitle: "Onmisbare tools voor digital nomads - Digitalnomad.nl"
 ---
 

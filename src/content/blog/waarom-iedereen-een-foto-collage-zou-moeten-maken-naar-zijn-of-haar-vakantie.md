@@ -4,6 +4,7 @@ description: "Er wordt gezegd dat een foto duizend woorden waard is. En als het 
 pubDate: 2022-12-07
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/12/pexels-pixabay-265946.jpg"
 metaTitle: "Waarom iedereen een foto collage zou moeten maken naar zijn of haar vakantie - Digitalnomad.nl"
 ---
 

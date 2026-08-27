@@ -4,6 +4,7 @@ description: "In de moderne wereld van vandaag zoeken de meeste gezinnen naar al
 pubDate: 2022-06-24
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/02/pexels-photo-442579.jpeg"
 metaTitle: "All inclusive is de ideale gezinsvakantie - Digitalnomad.nl"
 ---
 

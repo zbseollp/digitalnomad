@@ -4,6 +4,7 @@ description: "Als digital nomad maakt het je niet uit waar je bent, je kunt over
 pubDate: 2022-07-12
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/02/pexels-photo-442579.jpeg"
 metaTitle: "Digital nomad banen bij een online casino - Digitalnomad.nl"
 ---
 

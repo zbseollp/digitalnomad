@@ -4,6 +4,7 @@ description: "Als festivalorganisator weet je dat het succes van je evenement af
 pubDate: 2023-06-19
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/06/pexels-george-dolgikh-1666067.jpg"
 metaTitle: "Deze 4 items zorgen voor een onvergetelijke goodiebag! - Digitalnomad.nl"
 ---
 

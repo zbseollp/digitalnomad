@@ -5,6 +5,7 @@ pubDate: 2024-06-30
 updatedDate: 2024-06-30
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2024/06/Iven-Cudogham.png"
 metaTitle: "Het Vermogen van Iven Cudogham - Digitalnomad.nl"
 ---
 

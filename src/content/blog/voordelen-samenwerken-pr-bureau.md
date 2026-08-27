@@ -4,6 +4,7 @@ description: "Wil je meer weten over de voordelen van samenwerken met een PR bur
 pubDate: 2023-03-09
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/03/social-g31202d3f0_1280.jpg"
 metaTitle: "De voordelen van samenwerken met een PR bureau - Digitalnomad.nl"
 ---
 

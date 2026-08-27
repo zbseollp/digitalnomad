@@ -5,6 +5,7 @@ pubDate: 2022-09-23
 updatedDate: 2022-09-26
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/09/Vakantievilla-scaled.jpg"
 metaTitle: "5 onmisbare steden voor jouw stedentrip in België - Digitalnomad.nl"
 ---
 

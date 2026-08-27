@@ -4,6 +4,7 @@ description: "Een digital nomad kan overal werken zo lang er een internetverbind
 pubDate: 2022-07-11
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/02/pexels-photo-325193.jpeg"
 metaTitle: "Werken in een online casino als digital nomad - Digitalnomad.nl"
 ---
 

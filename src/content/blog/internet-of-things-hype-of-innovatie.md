@@ -4,6 +4,7 @@ description: "In de wereld van technologie en nieuwe ontwikkelingen komt van all
 pubDate: 2024-04-29
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2024/04/Internet-of-Things.png"
 metaTitle: "Internet of Things; hype of innovatie? - Digitalnomad.nl"
 ---
 

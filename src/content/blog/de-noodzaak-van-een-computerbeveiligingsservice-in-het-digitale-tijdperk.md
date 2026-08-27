@@ -5,6 +5,7 @@ pubDate: 2024-06-24
 updatedDate: 2024-06-24
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2024/04/Internet-of-Things-300x132.png"
 metaTitle: "De noodzaak van een computerbeveiligingsservice in het digitale tijdperk - Digitalnomad.nl"
 ---
 

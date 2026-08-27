@@ -4,6 +4,7 @@ description: "Digital Nomads zijn mensen die hun werk en leven combineren door m
 pubDate: 2023-02-10
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/11/sincerely-media-ylveRpZ8L1s-unsplash-scaled.jpg"
 metaTitle: "Wat betekent Digital Nomads? - Digitalnomad.nl"
 ---
 

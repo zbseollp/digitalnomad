@@ -5,6 +5,7 @@ pubDate: 2022-12-19
 updatedDate: 2022-12-19
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/07/pexels-franco-salvador-12907747.jpg"
 metaTitle: "Als digital nomad geld verdienen met bookmakers - Digitalnomad.nl"
 ---
 

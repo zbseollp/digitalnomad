@@ -4,6 +4,7 @@ description: "Er zijn veel manieren om een lening aan te vragen. Je kunt online 
 pubDate: 2022-10-13
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/10/pexels-pixabay-164652.jpg"
 metaTitle: "Hoe vraag je een lening aan? - Digitalnomad.nl"
 ---
 

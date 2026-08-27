@@ -5,6 +5,7 @@ pubDate: 2024-02-14
 updatedDate: 2024-02-14
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2024/02/camper-werken.jpg"
 ---
 
 ![](/wp-content/uploads/2024/02/camper-werken.jpg)

@@ -4,6 +4,7 @@ description: "Heb je er ooit van gedroomd je baan op te zeggen, je leven in een 
 pubDate: 2022-11-21
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/11/pexels-dominika-roseclay-905163-2.jpg"
 metaTitle: "Als online marketeer de wereld rond? Lees deze tips & tricks! - Digitalnomad.nl"
 ---
 

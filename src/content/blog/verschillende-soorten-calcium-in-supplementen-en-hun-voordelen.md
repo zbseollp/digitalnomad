@@ -5,6 +5,7 @@ pubDate: 2024-10-29
 updatedDate: 2024-10-29
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2024/10/pills-5150992_640.jpg"
 metaTitle: "Verschillende soorten calcium in supplementen en hun voordelen - Digitalnomad.nl"
 ---
 

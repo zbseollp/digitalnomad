@@ -4,6 +4,7 @@ description: "Ben je een vakantie aan het plannen en vraag je je af of je je hui
 pubDate: 2022-05-31
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/05/Hondenverzekering.jpg"
 metaTitle: "Je huisdier meenemen op reis - Digitalnomad.nl"
 ---
 

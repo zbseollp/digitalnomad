@@ -4,6 +4,7 @@ description: "Het adverteren op verschillende online platforms is tegenwoordig e
 pubDate: 2024-03-07
 author: "Redactie Digitalnomad.nl"
 categories: ["Marketing"]
+image: "/wp-content/uploads/2024/03/pexels-oleksandr-p-1031700-1.jpg"
 metaTitle: "De 5 voordelen van het uitbesteden van Ads - Digitalnomad.nl"
 ---
 

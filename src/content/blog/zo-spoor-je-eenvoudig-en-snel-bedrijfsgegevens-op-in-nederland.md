@@ -5,6 +5,7 @@ pubDate: 2025-04-24
 updatedDate: 2025-04-24
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2025/04/pexels-sevenstormphotography-443383-scaled.jpg"
 ---
 
 ![gebouw](/wp-content/uploads/2025/04/pexels-sevenstormphotography-443383-1024x768.jpg)

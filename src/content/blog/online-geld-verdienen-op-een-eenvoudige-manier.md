@@ -5,6 +5,7 @@ pubDate: 2022-05-03
 updatedDate: 2022-05-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2021/10/46f1750db906313820fbdbbcac205b27.jpg"
 metaTitle: "Online geld verdienen op een eenvoudige manier - Digitalnomad.nl"
 ---
 

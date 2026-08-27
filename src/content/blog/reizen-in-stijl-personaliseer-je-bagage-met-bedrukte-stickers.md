@@ -5,6 +5,7 @@ pubDate: 2023-08-04
 updatedDate: 2023-08-04
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/08/pexels-picjumbocom-196655-2.jpg"
 metaTitle: "Reisbagage Personaliseren met Bedrukte Stickers"
 ---
 

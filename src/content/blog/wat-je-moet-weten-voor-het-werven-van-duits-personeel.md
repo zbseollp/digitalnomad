@@ -4,6 +4,7 @@ description: "Ga je Duits personeel werven? Dan is het verstandig om van tevoren
 pubDate: 2023-04-05
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/04/pexels-ingo-joseph-109629.jpg"
 metaTitle: "Wat je moet weten voor het werven van Duits personeel - Digitalnomad.nl"
 ---
 

@@ -4,6 +4,7 @@ description: "Het bestaan van een digital nomad is voor veel mensen aantrekkelij
 pubDate: 2022-10-13
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/02/pexels-photo-325193.jpeg"
 metaTitle: "Overweeg jij om het leven van een digital nomad te leiden? - Digitalnomad.nl"
 ---
 

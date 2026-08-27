@@ -5,6 +5,7 @@ pubDate: 2021-12-06
 updatedDate: 2021-12-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2021/12/stn-city.jpg"
 metaTitle: "Mafia Metaverse SYN CITY onthult eerste spelaanbod op Binance NFT - Digitalnomad.nl"
 ---
 

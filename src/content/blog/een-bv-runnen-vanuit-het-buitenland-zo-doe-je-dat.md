@@ -4,6 +4,7 @@ description: "Het runnen van een besloten vennootschap (bv) vanuit het buitenlan
 pubDate: 2023-12-29
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/12/pexels-sora-shimazaki-5668887.jpg"
 metaTitle: "Een bv runnen vanuit het buitenland; zo doe je dat! - Digitalnomad.nl"
 ---
 

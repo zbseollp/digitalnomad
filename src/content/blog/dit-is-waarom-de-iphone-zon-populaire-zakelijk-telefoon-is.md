@@ -5,6 +5,7 @@ pubDate: 2023-08-30
 updatedDate: 2023-08-30
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/08/pexels-rdne-stock-project-5699374.jpg"
 metaTitle: "Dit is waarom de iphone zo'n populaire zakelijk telefoon is - Digitalnomad.nl"
 ---
 

@@ -4,6 +4,7 @@ description: "In een wereld vol onzekerheden, bieden verzekeringen een anker van
 pubDate: 2023-11-07
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/11/pexels-linnea-hansen-2330197.jpg"
 metaTitle: "Een Zeker Gevoel: Hoe Verzekeringen bijdragen aan Rust en Stabiliteit - Digitalnomad.nl"
 ---
 

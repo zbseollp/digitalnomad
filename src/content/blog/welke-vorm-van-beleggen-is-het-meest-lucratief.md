@@ -5,6 +5,7 @@ pubDate: 2022-07-28
 updatedDate: 2022-07-28
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/07/pexels-franco-salvador-12907747.jpg"
 metaTitle: "Welke vorm van beleggen is het meest lucratief? - Digitalnomad.nl"
 ---
 

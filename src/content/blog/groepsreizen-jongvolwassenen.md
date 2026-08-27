@@ -4,6 +4,7 @@ description: "Reizen is heerlijk. Je koffer inpakken, even in een hele andere we
 pubDate: 2023-08-14
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws", "Reizen"]
+image: "/wp-content/uploads/2023/08/pexels-belle-co-1000445.jpg"
 metaTitle: "Groepsreizen jongvolwassenen - Digitalnomad.nl"
 ---
 

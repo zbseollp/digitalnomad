@@ -4,6 +4,7 @@ description: "Als zzp’er is het opbouwen van een succesvol bedrijf een uitdage
 pubDate: 2023-07-03
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/08/pexels-picjumbocom-196655-2.jpg"
 metaTitle: "Hoe bouw je een goed bedrijf op als zzp’er? - Digitalnomad.nl"
 ---
 

@@ -4,6 +4,7 @@ description: "Financiële leasing kan een uitdagende onderneming zijn. Met de ju
 pubDate: 2023-11-14
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/10/pexels-pixabay-164652.jpg"
 metaTitle: "Hoe je de beste deal sluit voor financiële leasing - Digitalnomad.nl"
 ---
 

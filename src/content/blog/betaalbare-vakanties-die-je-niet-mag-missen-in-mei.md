@@ -5,6 +5,7 @@ pubDate: 2024-02-15
 updatedDate: 2024-02-15
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2024/02/beach.jpg"
 metaTitle: "Betaalbare vakanties die je niet mag missen in mei - Digitalnomad.nl"
 ---
 

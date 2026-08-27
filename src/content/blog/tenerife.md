@@ -5,6 +5,7 @@ pubDate: 2024-07-24
 updatedDate: 2023-07-26
 author: "Redactie Digitalnomad.nl"
 categories: ["Bestemmingen"]
+image: "/wp-content/uploads/2022/01/pana.jpg"
 metaTitle: "Wonen & Werken in Tenerife | Digital Nomad Ervaringen!"
 ---
 

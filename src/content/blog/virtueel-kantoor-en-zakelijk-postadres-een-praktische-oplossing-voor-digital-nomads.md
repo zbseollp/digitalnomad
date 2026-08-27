@@ -4,6 +4,7 @@ description: "Als digital nomad heb je de vrijheid om te werken waar je maar wil
 pubDate: 2024-10-15
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2024/10/pexels-seven11nash-380769.jpg"
 metaTitle: "Virtueel kantoor en zakelijk postadres: een praktische oplossing voor digital nomads - Digitalnomad.nl"
 ---
 

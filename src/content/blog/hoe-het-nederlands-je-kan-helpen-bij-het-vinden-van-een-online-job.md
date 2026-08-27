@@ -5,6 +5,7 @@ pubDate: 2022-08-08
 updatedDate: 2022-08-08
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/08/telework-6795505_640.jpg"
 metaTitle: "Hoe het Nederlands je kan helpen bij het vinden van een online job - Digitalnomad.nl"
 ---
 

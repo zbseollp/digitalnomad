@@ -4,6 +4,7 @@ description: "Reizen is voor velen een droom, maar het kan financieel uitdagend 
 pubDate: 2023-11-01
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/11/nomadddd.jpg"
 metaTitle: "Geld Verdienen Tijdens Je Reizen: Hoe Doe Je Dat? - Digitalnomad.nl"
 ---
 

@@ -1,15 +1,18 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import Toc from '../components/Toc.astro';
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
   entry: CollectionEntry<'blog'>;
+  headings?: { depth: number; slug: string; text: string }[];
 }
-const { entry } = Astro.props;
-const { title, description, pubDate, updatedDate, author, categories = [], metaTitle } = entry.data as any;
-const fmt = (d: Date) =>
-  new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' }).format(d);
+const { entry, headings = [] } = Astro.props;
+const d = entry.data as any;
+const { title, description, pubDate, updatedDate, author, categories = [], metaTitle, image } = d;
+const fmt = (x: Date) =>
+  new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' }).format(x);
 
 /* Voor bestemmingspagina's: de andere pagina's over dezelfde plaats. */
 const PREFIXES = ['eten-en-drinken-in-', 'klimaat-in-', 'activiteiten-in-', 'workation-in-', 'emigreren-', 'kaart-', 'veiligheid-in-'];
@@ -27,28 +30,42 @@ let prefix = '';
 for (const p of PREFIXES) {
   if (entry.id.startsWith(p)) { place = entry.id.slice(p.length); prefix = p; break; }
 }
+const isDest = categories.includes('Bestemmingen');
 let related: { href: string; label: string }[] = [];
-if ((entry.data.categories ?? []).includes('Bestemmingen')) {
+if (isDest && !entry.id.startsWith('wonen-werken-in-')) {
   const all = await getCollection('blog');
   const ids = new Set(all.map((a) => a.id));
   const base = place || entry.id;
-  if (!entry.id.startsWith('wonen-werken-in-')) {
-    if (ids.has(base)) related.push({ href: `/${base}/`, label: 'Overzicht' });
-    for (const p of PREFIXES) {
-      if (p === prefix) continue;
-      if (ids.has(p + base)) related.push({ href: `/${p}${base}/`, label: LABELS[p] });
-    }
+  if (prefix && ids.has(base)) related.push({ href: `/${base}/`, label: 'Overzicht' });
+  for (const p of PREFIXES) {
+    if (p === prefix) continue;
+    if (ids.has(p + base)) related.push({ href: `/${p}${base}/`, label: LABELS[p] });
   }
 }
+const catSlug: Record<string, string> = {
+  Bedrijven: 'bedrijven', Blog: 'blog', Crypto: 'crypto', Marketing: 'marketing', Nieuws: 'nieuws',
+  Reizen: 'reizen', Spotify: 'spotify', TikTok: 'tiktok', Overig: 'uncategorized', Vervoer: 'vervoer',
+};
 ---
-<BaseLayout title={metaTitle || title} description={description}>
+<BaseLayout title={metaTitle || title} description={description} image={image}>
+  <div class="progress" id="progress"></div>
+
   <section class="page-hero">
     <div class="wrap">
-      {categories.length > 0 && (
-        <p style="margin:0 0 10px;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--sky)">
-          {categories.join(' · ')}
-        </p>
-      )}
+      <p class="crumbs">
+        <a href="/">Home</a>
+        {isDest ? (
+          <>
+            <span>/</span>
+            <a href="/bestemmingen/">Bestemmingen</a>
+          </>
+        ) : categories[0] && catSlug[categories[0]] ? (
+          <>
+            <span>/</span>
+            <a href={`/category/${catSlug[categories[0]]}/`}>{categories[0]}</a>
+          </>
+        ) : null}
+      </p>
       <h1>{title}</h1>
       {description && <p>{description}</p>}
     </div>
@@ -57,17 +74,23 @@ if ((entry.data.categories ?? []).includes('Bestemmingen')) {
   <div class="article">
     <div class="wrap article-layout">
       <article>
+        {image && (
+          <figure class="hero-figure">
+            <img src={image} alt="" loading="eager" decoding="async" />
+          </figure>
+        )}
         <div class="meta-line">
+          {categories[0] && <span class="badge">{categories[0]}</span>}
           {author && <span>Door <strong>{author}</strong></span>}
           <span>Gepubliceerd {fmt(pubDate)}</span>
-          {updatedDate && <span>Laatste update {fmt(updatedDate)}</span>}
+          {updatedDate && <span>Bijgewerkt {fmt(updatedDate)}</span>}
         </div>
         <div class="prose">
           <slot />
         </div>
         {related.length > 0 && (
-          <div style="margin-top:38px;padding-top:24px;border-top:1px solid var(--line)">
-            <h2 style="font-family:var(--slab);font-size:1.15rem;margin:0 0 12px;color:var(--navy)">
+          <div style="margin-top:44px;padding-top:28px;border-top:1px solid var(--line)">
+            <h2 style="font-family:var(--slab);font-size:1.2rem;margin:0 0 14px;color:var(--navy)">
               Meer over {place.replace(/-/g, ' ')}
             </h2>
             <div class="chips">
@@ -78,18 +101,38 @@ if ((entry.data.categories ?? []).includes('Bestemmingen')) {
       </article>
 
       <aside class="aside">
-        <div class="box">
+        <Toc headings={headings} />
+        <div class="box accent">
           <h3>Bestemmingen</h3>
           <p>Bekijk alle steden en landen met praktische info over kosten, visa, klimaat en veiligheid.</p>
           <a class="btn btn-sky" href="/bestemmingen/">Alle bestemmingen</a>
         </div>
         <div class="box">
           <h3>Handig om te lezen</h3>
-          <p style="margin-bottom:6px"><a href="/belasting-besparen/">Belasting besparen als nomad</a></p>
-          <p style="margin-bottom:6px"><a href="/183-2/">De 183-dagenregeling</a></p>
-          <p style="margin-bottom:0"><a href="/blog/">Alle artikelen</a></p>
+          <div class="links">
+            <a href="/belasting-besparen/">Belasting besparen als nomad</a>
+            <a href="/183-2/">De 183-dagenregeling</a>
+            <a href="/blog/">Alle artikelen</a>
+          </div>
         </div>
       </aside>
     </div>
   </div>
+
+  <script is:inline>
+    (function () {
+      var bar = document.getElementById('progress');
+      var art = document.querySelector('.article');
+      if (!bar || !art) return;
+      function upd() {
+        var top = art.offsetTop;
+        var h = art.offsetHeight - window.innerHeight;
+        var p = h > 0 ? ((window.scrollY - top) / h) * 100 : 0;
+        bar.style.width = Math.max(0, Math.min(100, p)) + '%';
+      }
+      document.addEventListener('scroll', upd, { passive: true });
+      window.addEventListener('resize', upd);
+      upd();
+    })();
+  </script>
 </BaseLayout>

@@ -4,6 +4,7 @@ description: "Nooit meer werken vanaf de keukentafel of een krap hoekje van de w
 pubDate: 2022-05-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/02/pexels-photo-442579.jpeg"
 metaTitle: "Home office indelen - Digitalnomad.nl"
 ---
 

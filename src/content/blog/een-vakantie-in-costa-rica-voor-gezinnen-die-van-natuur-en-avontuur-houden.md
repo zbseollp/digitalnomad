@@ -4,6 +4,7 @@ description: "Costa Rica biedt een ideale mix van natuur, wilde dieren en buiten
 pubDate: 2025-11-28
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2025/11/pexels-diego-madrigal-162471-3836281.jpg"
 metaTitle: "Een vakantie in Costa Rica voor gezinnen die van natuur en avontuur houden - Digitalnomad.nl"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2023-05-11
 updatedDate: 2023-05-11
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws", "Reizen"]
+image: "/wp-content/uploads/2023/05/pexels-oleksandr-pidvalnyi-2166553.jpg"
 metaTitle: "De voordelen van werken in het buitenland: Een kans om te reizen en nieuwe culturen te ontdekken - Digitalnomad.nl"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2023-05-03
 updatedDate: 2023-05-03
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/08/pexels-picjumbocom-196655-2.jpg"
 metaTitle: "Steeds meer Nederlanders besluiten een chalet te kopen - Digitalnomad.nl"
 ---
 

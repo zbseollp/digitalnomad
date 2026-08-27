@@ -4,6 +4,7 @@ description: "Met de groeiende populariteit van digital nomads en de flexibilite
 pubDate: 2023-06-22
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/06/pexels-peter-olexa-4012966.jpg"
 metaTitle: "De opkomst van Digital nomads: Het spelen in een online casino zonder Cruks als onderdeel van een flexibele levensstijl. - Digitalnomad.nl"
 ---
 

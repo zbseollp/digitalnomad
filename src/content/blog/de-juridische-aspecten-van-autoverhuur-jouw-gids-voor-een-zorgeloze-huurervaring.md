@@ -4,6 +4,7 @@ description: "Autoverhuur biedt talloze voordelen, zoals mobiliteit en flexibili
 pubDate: 2023-11-14
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/11/pexels-pixabay-164634-7.jpg"
 metaTitle: "De juridische aspecten van autoverhuur: Jouw gids voor een zorgeloze huurervaring - Digitalnomad.nl"
 ---
 

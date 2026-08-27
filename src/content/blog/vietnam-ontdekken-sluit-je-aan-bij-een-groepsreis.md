@@ -4,6 +4,7 @@ description: "Groepsreizen zijn een goede manier om kennis te maken met een nieu
 pubDate: 2025-01-21
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2025/01/66b90c7d-4e5c-499d-8c08-d7abf0846e2d.jpg"
 metaTitle: "Vietnam ontdekken? Sluit je aan bij een groepsreis - Digitalnomad.nl"
 ---
 

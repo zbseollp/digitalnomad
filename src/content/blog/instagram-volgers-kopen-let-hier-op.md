@@ -5,6 +5,7 @@ pubDate: 2023-11-13
 updatedDate: 2023-11-23
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2023/11/instagram.jpg"
 metaTitle: "Instagram volgers kopen - Let hier op! - Digitalnomad.nl"
 ---
 

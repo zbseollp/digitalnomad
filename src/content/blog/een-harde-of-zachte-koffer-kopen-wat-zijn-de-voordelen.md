@@ -4,6 +4,7 @@ description: "Wanneer je op het punt staat een nieuwe koffer aan te schaffen, st
 pubDate: 2024-02-25
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2024/02/pexels-oleksandr-p-1008155.jpg"
 metaTitle: "Een harde of zachte koffer kopen? Wat zijn de voordelen? - Digitalnomad.nl"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2022-11-28
 updatedDate: 2022-12-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2022/11/jonathan-cooper-0O2Pp6-mOkY-unsplash-scaled.jpg"
 metaTitle: "GRATIS Online Bankrekening Openen - Beste Online Banken"
 ---
 

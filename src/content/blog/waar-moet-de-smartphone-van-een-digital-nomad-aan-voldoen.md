@@ -4,6 +4,7 @@ description: "Als digital nomad leef je met weinig bezittingen. Je leeft een fle
 pubDate: 2023-01-12
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/01/smartphonee.jpg"
 metaTitle: "Waar moet de smartphone van een digital nomad aan voldoen? - Digitalnomad.nl"
 ---
 

@@ -4,6 +4,7 @@ description: "Zuid-Afrika is een land van adembenemende diversiteit, rijk aan cu
 pubDate: 2023-11-19
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/11/pexels-tomas-wells-6930841.jpg"
 metaTitle: "Rondreizen door Zuid-Afrika: magisch! - Digitalnomad.nl"
 ---
 

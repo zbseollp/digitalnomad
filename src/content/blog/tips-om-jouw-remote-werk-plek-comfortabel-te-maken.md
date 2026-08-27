@@ -5,6 +5,7 @@ pubDate: 2022-12-07
 updatedDate: 2023-10-31
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/11/pexels-pixabay-37347.jpg"
 metaTitle: "Tips om jouw remote werk plek comfortabel te maken - Digitalnomad.nl"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2024-08-05
 updatedDate: 2024-09-16
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2024/08/criminal-8444883_1280.jpg"
 metaTitle: "De meest criminele steden van Nederland: een overzicht van misdaad en veiligheid - Digitalnomad.nl"
 ---
 

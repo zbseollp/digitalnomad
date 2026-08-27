@@ -4,6 +4,7 @@ description: "De wereld van beleggen blijft constant in beweging, en 2025 beloof
 pubDate: 2025-04-01
 author: "Redactie Digitalnomad.nl"
 categories: ["Blog"]
+image: "/wp-content/uploads/2025/03/computer-767776_1280.jpg"
 ---
 
 ![](/wp-content/uploads/2025/03/computer-767776_1280-1024x682.jpg)

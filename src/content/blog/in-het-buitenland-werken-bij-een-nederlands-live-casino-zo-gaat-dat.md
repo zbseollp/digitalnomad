@@ -4,6 +4,7 @@ description: "Werken bij een Nederlands live casino, dat doe je in het buitenlan
 pubDate: 2022-07-09
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2022/07/pexels-cottonbro-6961907-scaled.jpg"
 metaTitle: "In het buitenland werken bij een Nederlands live casino; zo gaat dat - Digitalnomad.nl"
 ---
 

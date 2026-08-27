@@ -5,6 +5,7 @@ pubDate: 2022-12-23
 updatedDate: 2022-12-23
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/11/nomadddd.jpg"
 metaTitle: "Waarom zou je gebruik maken van een workforce management tool - Digitalnomad.nl"
 ---
 

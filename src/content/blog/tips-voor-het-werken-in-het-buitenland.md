@@ -4,6 +4,7 @@ description: "Denk je erover de wereld rond te reizen en in het buitenland te ga
 pubDate: 2023-01-21
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/09/3137.jpeg"
 metaTitle: "Tips voor het werken in het buitenland - Digitalnomad.nl"
 ---
 

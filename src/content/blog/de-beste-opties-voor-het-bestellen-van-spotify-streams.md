@@ -4,6 +4,7 @@ description: "Het vergroten van je bereik en zichtbaarheid op Spotify is een cru
 pubDate: 2024-08-05
 author: "Redactie Digitalnomad.nl"
 categories: ["Spotify"]
+image: "/wp-content/uploads/2024/08/car-with-phone.png"
 metaTitle: "De beste opties voor het bestellen van Spotify streams - Digitalnomad.nl"
 ---
 

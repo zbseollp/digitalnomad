@@ -5,6 +5,7 @@ pubDate: 2022-08-16
 updatedDate: 2022-09-25
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/08/pexels-nubia-navarro-nubikini-386000.jpg"
 metaTitle: "4 Eenvoudige tips voor het plannen van een groepsvakantie - Digitalnomad.nl"
 ---
 

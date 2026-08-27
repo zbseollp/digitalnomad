@@ -5,6 +5,7 @@ pubDate: 2022-05-05
 updatedDate: 2022-05-05
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/02/pexels-photo-325193.jpeg"
 metaTitle: "Digital nomad home office inrichten - Digitalnomad.nl"
 ---
 

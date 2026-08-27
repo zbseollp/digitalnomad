@@ -4,6 +4,7 @@ description: "Gokken bestaat al sinds de oudheid in vele vormen. Het is altijd g
 pubDate: 2022-12-19
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/12/Earn-money-image-scaled-e1670302069860.jpg"
 metaTitle: "Waarom online gokken zo populair is - Digitalnomad.nl"
 ---
 

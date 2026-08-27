@@ -5,6 +5,7 @@ pubDate: 2022-09-30
 updatedDate: 2022-09-30
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/09/3137.jpeg"
 metaTitle: "Veilig internetten als een digital nomad - Digitalnomad.nl"
 ---
 

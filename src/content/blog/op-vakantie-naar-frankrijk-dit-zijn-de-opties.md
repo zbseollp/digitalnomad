@@ -4,6 +4,7 @@ description: "Frankrijk is een populaire bestemming voor vakantiegangers van ove
 pubDate: 2023-08-07
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/08/clay-banks-O5hfuVWgsS8-unsplash-scaled.jpg"
 metaTitle: "Op vakantie naar Frankrijk? Dit zijn de opties! - Digitalnomad.nl"
 ---
 

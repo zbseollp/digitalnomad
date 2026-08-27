@@ -4,6 +4,7 @@ description: "Helaas gaan er vandaag de dag nog veel misverstanden rond over het
 pubDate: 2022-08-08
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/05/cryptoclanafbeelding.jpg"
 metaTitle: "5 manieren waarop je als digital nomad geld kunt verdienen - Digitalnomad.nl"
 ---
 

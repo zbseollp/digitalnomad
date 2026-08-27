@@ -5,6 +5,7 @@ pubDate: 2022-02-14
 updatedDate: 2022-03-10
 author: "Redactie Digitalnomad.nl"
 categories: ["Crypto"]
+image: "/wp-content/uploads/2022/02/ftxb.png"
 metaTitle: "Crypto converteren op FTX | Digitalnomad.nl"
 ---
 

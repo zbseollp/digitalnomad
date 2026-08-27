@@ -5,6 +5,7 @@ pubDate: 2023-05-10
 updatedDate: 2023-05-10
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/05/picture.jpg"
 metaTitle: "De top 5 sportweddenschappen in Nederland - Digitalnomad.nl"
 ---
 

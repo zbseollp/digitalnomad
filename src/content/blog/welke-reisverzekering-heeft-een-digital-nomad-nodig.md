@@ -4,6 +4,7 @@ description: "Steeds meer werk kan gedaan worden zonder dat je op een vaste loca
 pubDate: 2024-01-19
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2024/01/istockphoto-1195971216-612x612-1.jpg"
 metaTitle: "Welke reisverzekering heeft een digital nomad nodig? - Digitalnomad.nl"
 ---
 

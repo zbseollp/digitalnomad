@@ -14,6 +14,7 @@ const { title, metaTitle, description = '', intro = '', wide = false, noindex = 
 <BaseLayout title={metaTitle || title} description={description} noindex={noindex}>
   <section class="page-hero">
     <div class="wrap">
+      <p class="crumbs"><a href="/">Home</a><span>/</span><span style="opacity:1;color:#a9bce4">{title}</span></p>
       <h1>{title}</h1>
       {(intro || description) && <p>{intro || description}</p>}
     </div>
@@ -28,7 +29,7 @@ const { title, metaTitle, description = '', intro = '', wide = false, noindex = 
       </article>
       {!wide && (
         <aside class="aside">
-          <div class="box">
+          <div class="box accent">
             <h3>Bestemmingen</h3>
             <p>Alle steden en landen met kosten, visa, klimaat en veiligheid op een rij.</p>
             <a class="btn btn-sky" href="/bestemmingen/">Alle bestemmingen</a>

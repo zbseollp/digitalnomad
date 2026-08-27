@@ -5,6 +5,7 @@ pubDate: 2024-08-22
 updatedDate: 2024-08-22
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2024/08/bedrijf.jpeg"
 metaTitle: "Bedrijfsinformatie: een belangrijk onderdeel van zakelijk succes - Digitalnomad.nl"
 ---
 

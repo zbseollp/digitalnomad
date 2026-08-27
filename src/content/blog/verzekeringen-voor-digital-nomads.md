@@ -4,6 +4,7 @@ description: "Als je een digitale nomade bent, kan het vinden van adequate verze
 pubDate: 2022-05-16
 author: "Redactie Digitalnomad.nl"
 categories: ["Reizen"]
+image: "/wp-content/uploads/2022/02/dubai-tower-arab-khalifa-162031.jpeg"
 metaTitle: "Verzekeringen voor digital nomads - Digitalnomad.nl"
 ---
 

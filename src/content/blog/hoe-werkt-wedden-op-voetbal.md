@@ -5,6 +5,7 @@ pubDate: 2023-05-15
 updatedDate: 2023-07-26
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2022/10/pexels-pixabay-164652.jpg"
 metaTitle: "Wedden op Voetbal: Tips en Inzichten"
 ---
 

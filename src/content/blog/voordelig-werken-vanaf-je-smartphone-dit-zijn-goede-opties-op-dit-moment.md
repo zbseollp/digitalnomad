@@ -4,6 +4,7 @@ description: "Digital nomad zijn klinkt fantastisch maar brengt natuurlijk ook k
 pubDate: 2023-01-31
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/01/nomad.png"
 metaTitle: "Voordelig werken vanaf je smartphone; dit zijn goede opties op dit moment! - Digitalnomad.nl"
 ---
 

@@ -5,6 +5,7 @@ pubDate: 2024-01-06
 updatedDate: 2024-01-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2024/01/thibault-penin-yo462gXxlWs-unsplash.jpg"
 metaTitle: "Betoverend nieuw: ontdek het laatste aanbod van Disney+ - Digitalnomad.nl"
 ---
 

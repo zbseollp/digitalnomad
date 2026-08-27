@@ -4,6 +4,7 @@ description: "Ben je een digitale nomade? Ben je op zoek naar wat tips om je lev
 pubDate: 2022-07-13
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2022/06/Slice-3.jpg"
 metaTitle: "Woon tips voor digital nomads - Digitalnomad.nl"
 ---
 

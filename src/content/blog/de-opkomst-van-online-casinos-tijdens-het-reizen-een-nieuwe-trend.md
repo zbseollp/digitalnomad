@@ -4,6 +4,7 @@ description: "De opkomst van online casino’s tijdens het reizen is een fenomee
 pubDate: 2023-03-29
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2023/02/gokkasten1.png"
 metaTitle: "De opkomst van online casino's tijdens het reizen: Een nieuwe trend? - Digitalnomad.nl"
 ---
 

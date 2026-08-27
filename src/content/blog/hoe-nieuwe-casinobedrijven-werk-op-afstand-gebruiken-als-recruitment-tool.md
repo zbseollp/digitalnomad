@@ -5,6 +5,7 @@ pubDate: 2022-10-06
 updatedDate: 2022-10-12
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2022/08/pexels-picjumbocom-196655-2.jpg"
 metaTitle: "Hoe nieuwe casinobedrijven werk op afstand gebruiken als recruitment tool - Digitalnomad.nl"
 ---
 

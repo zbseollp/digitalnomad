@@ -5,6 +5,7 @@ pubDate: 2024-04-04
 updatedDate: 2024-04-04
 author: "Redactie Digitalnomad.nl"
 categories: ["Overig"]
+image: "/wp-content/uploads/2024/04/telegram-scaled.jpg"
 metaTitle: "Bestel je telegram leden voordelig - Digitalnomad.nl"
 ---
 

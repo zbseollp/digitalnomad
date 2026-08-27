@@ -4,6 +4,7 @@ description: "Als digitale nomade ben je altijd op zoek naar slimme manieren om 
 pubDate: 2024-08-06
 author: "Redactie Digitalnomad.nl"
 categories: ["Nieuws"]
+image: "/wp-content/uploads/2024/08/pexels-daniel-dan-47825192-7709937-1.jpg"
 metaTitle: "5 tips om slim te investeren in cryptocurrency als digitale nomade - Digitalnomad.nl"
 ---
 
