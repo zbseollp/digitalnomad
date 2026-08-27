@@ -15,3 +15,11 @@
 
 # Gehackte spampagina van de bron - niet gemigreerd
 /cox-htm/  /  301
+
+# Oude Yoast-sitemappaden naar de nieuwe Astro-sitemap
+/sitemap_index.xml   /sitemap-index.xml  301
+/post-sitemap.xml              /sitemap-index.xml  301
+/page-sitemap.xml              /sitemap-index.xml  301
+/category-sitemap.xml          /sitemap-index.xml  301
+/author-sitemap.xml            /sitemap-index.xml  301
+/zb_mp-sitemap.xml             /sitemap-index.xml  301
