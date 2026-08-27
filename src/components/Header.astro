@@ -1,0 +1,35 @@
+---
+const { pathname } = Astro.url;
+const nav = [
+  { href: '/', label: 'Home' },
+  { href: '/blog/', label: 'Blog' },
+  { href: '/bestemmingen/', label: 'Bestemmingen' },
+  { href: '/over-ons/', label: 'Over ons' },
+  { href: '/contact/', label: 'Contact' },
+];
+---
+<header class="site-header">
+  <div class="wrap hdr">
+    <a class="logo" href="/" aria-label="Digitalnomad.nl">
+      <img src="/wp-content/uploads/2021/07/digitalnomad-1.svg" alt="Digitalnomad.nl" width="180" height="34" />
+    </a>
+    <button class="burger" id="burger" aria-label="Menu openen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="nav">
+      {nav.map((n) => <a href={n.href} class={pathname === n.href ? 'active' : ''}>{n.label}</a>)}
+      <a class="btn" href="/belasting-besparen/">Belasting besparen</a>
+    </nav>
+  </div>
+</header>
+<script is:inline>
+  (function () {
+    var b = document.getElementById('burger');
+    var n = document.getElementById('nav');
+    if (!b || !n) return;
+    b.addEventListener('click', function () {
+      var open = n.classList.toggle('open');
+      b.setAttribute('aria-expanded', String(open));
+    });
+  })();
+</script>

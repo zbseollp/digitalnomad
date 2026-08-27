@@ -1,0 +1,68 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const all = (await getCollection('blog')).sort((a, b) => a.id.localeCompare(b.id, 'nl'));
+const DEST_PREFIXES = [
+  'eten-en-drinken-in-', 'klimaat-in-', 'activiteiten-in-', 'workation-in-',
+  'emigreren-', 'kaart-', 'veiligheid-in-', 'wonen-werken-in-',
+];
+const isDest = (p: any) => (p.data.categories ?? []).includes('Bestemmingen');
+const steden = all.filter((p) => isDest(p) && !DEST_PREFIXES.some((x) => p.id.startsWith(x)));
+const landen = all.filter((p) => p.id.startsWith('wonen-werken-in-'));
+const subs = DEST_PREFIXES.filter((x) => x !== 'wonen-werken-in-').map((x) => ({
+  prefix: x,
+  label: x.replace(/-$/, '').replace(/-/g, ' ').replace(/^\w/, (c) => c.toUpperCase()),
+  items: all.filter((p) => p.id.startsWith(x)),
+}));
+const artikelen = all.filter((p) => !isDest(p));
+const label = (s: string) => s.replace(/-/g, ' ').replace(/^\w/, (c) => c.toUpperCase());
+---
+
+<BaseLayout
+  title="Sitemap | Digitalnomad.nl"
+  description="Overzicht van alle pagina's op Digitalnomad.nl: artikelen, steden, landen en praktische informatie."
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Sitemap</h1>
+      <p>Alle {all.length + 8} pagina's van Digitalnomad.nl op één plek.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Vaste pagina's</h2>
+      <div class="dest-links">
+        <a href="/">Home</a><a href="/blog/">Blog</a><a href="/bestemmingen/">Bestemmingen</a>
+        <a href="/over-ons/">Over ons</a><a href="/contact/">Contact</a>
+        <a href="/belasting-besparen/">Belasting besparen</a><a href="/183-2/">183-dagenregeling</a>
+        <a href="/privacy-policy/">Privacy policy</a>
+      </div>
+
+      <h2 class="section-title" style="margin-top:38px">Artikelen ({artikelen.length})</h2>
+      <div class="dest-links">
+        {artikelen.map((p) => <a href={`/${p.id}/`}>{p.data.title}</a>)}
+      </div>
+
+      <h2 class="section-title" style="margin-top:38px">Steden ({steden.length})</h2>
+      <div class="dest-links">
+        {steden.map((p) => <a href={`/${p.id}/`}>{label(p.id)}</a>)}
+      </div>
+
+      <h2 class="section-title" style="margin-top:38px">Landen ({landen.length})</h2>
+      <div class="dest-links">
+        {landen.map((p) => <a href={`/${p.id}/`}>{label(p.id.replace('wonen-werken-in-', ''))}</a>)}
+      </div>
+
+      {subs.map((s) => (
+        <div>
+          <h2 class="section-title" style="margin-top:38px">{s.label} ({s.items.length})</h2>
+          <div class="dest-links">
+            {s.items.map((p) => <a href={`/${p.id}/`}>{label(p.id.replace(s.prefix, ''))}</a>)}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

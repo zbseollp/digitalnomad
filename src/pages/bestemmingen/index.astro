@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const all = await getCollection('blog');
+const DEST_PREFIXES = [
+  'eten-en-drinken-in-', 'klimaat-in-', 'activiteiten-in-', 'workation-in-',
+  'emigreren-', 'kaart-', 'veiligheid-in-', 'wonen-werken-in-',
+];
+const steden = all
+  .filter((p) => (p.data.categories ?? []).includes('Bestemmingen') && !DEST_PREFIXES.some((x) => p.id.startsWith(x)))
+  .sort((a, b) => a.id.localeCompare(b.id, 'nl'));
+const landen = all
+  .filter((p) => p.id.startsWith('wonen-werken-in-'))
+  .sort((a, b) => a.id.localeCompare(b.id, 'nl'));
+const label = (s: string) => s.replace(/-/g, ' ').replace(/^\w/, (c) => c.toUpperCase());
+---
+
+<BaseLayout
+  title="Alle digital nomad bestemmingen | Digitalnomad.nl"
+  description="Alle steden en landen voor digital nomads op een rij: kosten van levensonderhoud, klimaat, veiligheid, visa, activiteiten en workation-plekken."
+>
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Bestemmingen</h1>
+      <p>
+        {steden.length} steden en {landen.length} landen uitgewerkt met kosten van levensonderhoud, klimaat,
+        veiligheid, activiteiten en workation-plekken.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">Steden</h2>
+      <p class="section-sub">Per stad vind je alles wat je moet weten voordat je er gaat wonen en werken.</p>
+      <div class="chips">
+        {steden.map((s) => <a href={`/${s.id}/`}>{label(s.id)}</a>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <h2 class="section-title">Landen</h2>
+      <p class="section-sub">Wonen en werken per land: visum, belasting en praktische zaken.</p>
+      <div class="chips">
+        {landen.map((s) => <a href={`/${s.id}/`}>{label(s.id.replace('wonen-werken-in-', ''))}</a>)}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

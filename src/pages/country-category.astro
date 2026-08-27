@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/country-category.html?raw';
+---
+<PageLayout
+  title="Wonen & werken in [zb_mp_locatie]"
+  metaTitle="Wonen en werken in [zb_mp_locatie]: Complete GIDS & Voordelen"
+  description="De complete GIDS om te wonen en werken in [zb_mp_locatie]. Levenskosten, cultuur, mogelijkheden, voordelen & nadelen en meer informatie."
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

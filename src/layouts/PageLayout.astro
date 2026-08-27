@@ -1,0 +1,46 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  metaTitle?: string;
+  description?: string;
+  intro?: string;
+  wide?: boolean;
+  noindex?: boolean;
+}
+const { title, metaTitle, description = '', intro = '', wide = false, noindex = false } = Astro.props;
+---
+<BaseLayout title={metaTitle || title} description={description} noindex={noindex}>
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>{title}</h1>
+      {(intro || description) && <p>{intro || description}</p>}
+    </div>
+  </section>
+
+  <div class="article">
+    <div class={wide ? 'wrap' : 'wrap article-layout'}>
+      <article>
+        <div class="prose" style={wide ? 'max-width:none' : undefined}>
+          <slot />
+        </div>
+      </article>
+      {!wide && (
+        <aside class="aside">
+          <div class="box">
+            <h3>Bestemmingen</h3>
+            <p>Alle steden en landen met kosten, visa, klimaat en veiligheid op een rij.</p>
+            <a class="btn btn-sky" href="/bestemmingen/">Alle bestemmingen</a>
+          </div>
+          <div class="box">
+            <h3>Populair</h3>
+            <p style="margin-bottom:6px"><a href="/belasting-besparen/">Belasting besparen</a></p>
+            <p style="margin-bottom:6px"><a href="/183-2/">183-dagenregeling</a></p>
+            <p style="margin-bottom:0"><a href="/blog/">Alle artikelen</a></p>
+          </div>
+        </aside>
+      )}
+    </div>
+  </div>
+</BaseLayout>

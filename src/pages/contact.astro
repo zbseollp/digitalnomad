@@ -1,0 +1,11 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/contact.html?raw';
+---
+<PageLayout
+  title="Contact"
+  metaTitle="Contact - Digitalnomad.nl"
+  description="Contact Heb je een vraag of opmerking over onze website? Neem dan contact op met ons team door onderstaand formulier in te vullen. Iemand van ons team zal zo snel mogelijk contact met je opnemen. Ben je een adverteerder en wil je reclame maken op onze website? Vul dan onderstaand formulier in. Wij zullen dan […]"
+>
+  <Fragment set:html={html} />
+</PageLayout>

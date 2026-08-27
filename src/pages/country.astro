@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/country.html?raw';
+---
+<PageLayout
+  title="Wonen & werken in [zb_mp_locatie]"
+  metaTitle="Wonen & Werken in [zb_mp_locatie] | Digital Nomad Ervaringen!"
+  description="Overweeg je om te gaan wonen en werken in [zb_mp_locatie]? Lees dan hier wat [zb_mp_locatie] allemaal biedt voor jou als digital nomad!"
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

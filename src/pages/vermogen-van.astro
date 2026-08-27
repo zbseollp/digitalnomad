@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/vermogen-van.html?raw';
+---
+<PageLayout
+  title="Vermogen van"
+  metaTitle="Vermogen van - Digitalnomad.nl"
+  description=""
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

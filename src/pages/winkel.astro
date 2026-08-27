@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/winkel.html?raw';
+---
+<PageLayout
+  title="Winkel"
+  metaTitle="Winkel - Digitalnomad.nl"
+  description=""
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

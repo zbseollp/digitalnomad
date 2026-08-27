@@ -1,0 +1,11 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/belasting-besparen.html?raw';
+---
+<PageLayout
+  title="Besparen op je belastingen?"
+  metaTitle="belasting besparen - Digitalnomad.nl"
+  description="Besparen op je belastingen? Ben jij een digital nomad of expat? En betaal jij nog steeds (onnodig) je belastingen in Nederland? Heb je een eigen bedrijf en staat deze nog ingeschreven bij het KVK? Maar woon je de meeste maanden van het jaar in het buitenland? Dan is er een grote kans dat je veel […]"
+>
+  <Fragment set:html={html} />
+</PageLayout>

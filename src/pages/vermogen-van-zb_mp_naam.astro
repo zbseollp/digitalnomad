@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/vermogen-van-zb_mp_naam.html?raw';
+---
+<PageLayout
+  title="Het vermogen van [zb_mp_Naam]"
+  metaTitle="Vermogen van [zb_mp_Naam] - Digitalnomad.nl"
+  description="Het vermogen van [zb_mp_Naam] Welkom bij dit artikel. Dit artikel gaat over [zb_mp_Naam]. Verder in dit artikel zullen we veel vertellen over [zb_mp_Naam]. Namelijk waar [zb_mp_Naam] is geboren, en [zb_mp_Naam]’s beroep. Daarnaast zullen we ook ingaan op [zb_mp_Naam]’s vermogen en hoe [zb_mp_Naam] dit heeft verdiend. We raden u ten zeerste aan om dit artikel te […]"
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/eten-en-drinken-in.html?raw';
+---
+<PageLayout
+  title="Eten en drinken in [zb_mp_locatie]"
+  metaTitle="Eten & Drinken in [zb_mp_locatie] | Tips van Digital Nomads"
+  description="Eten & Drinken in [zb_mp_locatie]: TIPS over de lokale gastronomie van [zb_mp_lokatie], opgesteld vóór en dóór Digital Nomads!"
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

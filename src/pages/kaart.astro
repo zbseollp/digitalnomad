@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/kaart.html?raw';
+---
+<PageLayout
+  title="Kaart [zb_mp_locatie]"
+  metaTitle="Kaart [zb_mp_locatie] | Ontdek de leukste plekken in deze stad"
+  description="Met behulp van de kaart van [zb_mp_locatie] zoek je een mooie locatie in de stad uit die voldoet aan al jouw Digital Nomade behoeften."
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

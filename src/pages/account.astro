@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/account.html?raw';
+---
+<PageLayout
+  title="Account"
+  metaTitle="Account - Digitalnomad.nl"
+  description=""
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

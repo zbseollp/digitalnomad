@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/workation-in.html?raw';
+---
+<PageLayout
+  title="Workation in [zb_mp_locatie]"
+  metaTitle="Workation in [zb_mp_locatie] | Iets voor jou? Ontdek het hier!"
+  description="Ben je op zoek bent naar een unieke manier om te reizen en tegelijkertijd wat werk gedaan te krijgen? Ga op werkvakantie in [zb_mp_locatie]"
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

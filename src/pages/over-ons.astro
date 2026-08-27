@@ -1,0 +1,11 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/over-ons.html?raw';
+---
+<PageLayout
+  title="Over ons"
+  metaTitle="Over ons - De website voor digital nomads over de hele wereld"
+  description="Over Ons Digitalnomad.nl is de reiswebsite voor digitale nomaden door digitale nomaden. Wij zijn een team van succesvolle young professionals die ervoor gekozen hebben om “locatie-onafhankelijk” te worden en onze dromen waar te maken door full-time de wereld rond te reizen. Digitalnomad.nl is de reiswebsite voor digitale nomaden door digitale nomaden. Wij zijn een team […]"
+>
+  <Fragment set:html={html} />
+</PageLayout>

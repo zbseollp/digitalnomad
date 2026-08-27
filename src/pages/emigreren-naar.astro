@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/emigreren-naar.html?raw';
+---
+<PageLayout
+  title="Emigreren naar [zb_mp_locatie]"
+  metaTitle="Emigreren naar [zb_mp_locatie] als Digital Nomad!"
+  description="Wat zijn de redenen waarom mensen ervoor kiezen om naar [zb_mp_locatie] te emigreren? En wat moet je allemaal regelen voordat je emigreert?"
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/thank-you.html?raw';
+---
+<PageLayout
+  title="Thank You"
+  metaTitle="Thank You - Digitalnomad.nl"
+  description="Your subscription has been set up successfully."
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

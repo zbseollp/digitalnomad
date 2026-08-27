@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/klimaat-in.html?raw';
+---
+<PageLayout
+  title="Klimaat in [zb_mp_locatie]"
+  metaTitle="Klimaat in [zb_mp_locatie] | Het klimaat gedurende het jaar"
+  description="Het klimaat is voor velen een belangrijke factor bij het kiezen van een plek om te wonen en werken. Wat is het klimaat in [zb_mp_locatie]?"
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

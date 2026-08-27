@@ -1,0 +1,95 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'blog'>;
+}
+const { entry } = Astro.props;
+const { title, description, pubDate, updatedDate, author, categories = [], metaTitle } = entry.data as any;
+const fmt = (d: Date) =>
+  new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' }).format(d);
+
+/* Voor bestemmingspagina's: de andere pagina's over dezelfde plaats. */
+const PREFIXES = ['eten-en-drinken-in-', 'klimaat-in-', 'activiteiten-in-', 'workation-in-', 'emigreren-', 'kaart-', 'veiligheid-in-'];
+const LABELS: Record<string, string> = {
+  'eten-en-drinken-in-': 'Eten & drinken',
+  'klimaat-in-': 'Klimaat',
+  'activiteiten-in-': 'Activiteiten',
+  'workation-in-': 'Workation',
+  'emigreren-': 'Emigreren',
+  'kaart-': 'Kaart',
+  'veiligheid-in-': 'Veiligheid',
+};
+let place = '';
+let prefix = '';
+for (const p of PREFIXES) {
+  if (entry.id.startsWith(p)) { place = entry.id.slice(p.length); prefix = p; break; }
+}
+let related: { href: string; label: string }[] = [];
+if ((entry.data.categories ?? []).includes('Bestemmingen')) {
+  const all = await getCollection('blog');
+  const ids = new Set(all.map((a) => a.id));
+  const base = place || entry.id;
+  if (!entry.id.startsWith('wonen-werken-in-')) {
+    if (ids.has(base)) related.push({ href: `/${base}/`, label: 'Overzicht' });
+    for (const p of PREFIXES) {
+      if (p === prefix) continue;
+      if (ids.has(p + base)) related.push({ href: `/${p}${base}/`, label: LABELS[p] });
+    }
+  }
+}
+---
+<BaseLayout title={metaTitle || title} description={description}>
+  <section class="page-hero">
+    <div class="wrap">
+      {categories.length > 0 && (
+        <p style="margin:0 0 10px;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--sky)">
+          {categories.join(' · ')}
+        </p>
+      )}
+      <h1>{title}</h1>
+      {description && <p>{description}</p>}
+    </div>
+  </section>
+
+  <div class="article">
+    <div class="wrap article-layout">
+      <article>
+        <div class="meta-line">
+          {author && <span>Door <strong>{author}</strong></span>}
+          <span>Gepubliceerd {fmt(pubDate)}</span>
+          {updatedDate && <span>Laatste update {fmt(updatedDate)}</span>}
+        </div>
+        <div class="prose">
+          <slot />
+        </div>
+        {related.length > 0 && (
+          <div style="margin-top:38px;padding-top:24px;border-top:1px solid var(--line)">
+            <h2 style="font-family:var(--slab);font-size:1.15rem;margin:0 0 12px;color:var(--navy)">
+              Meer over {place.replace(/-/g, ' ')}
+            </h2>
+            <div class="chips">
+              {related.map((r) => <a href={r.href}>{r.label}</a>)}
+            </div>
+          </div>
+        )}
+      </article>
+
+      <aside class="aside">
+        <div class="box">
+          <h3>Bestemmingen</h3>
+          <p>Bekijk alle steden en landen met praktische info over kosten, visa, klimaat en veiligheid.</p>
+          <a class="btn btn-sky" href="/bestemmingen/">Alle bestemmingen</a>
+        </div>
+        <div class="box">
+          <h3>Handig om te lezen</h3>
+          <p style="margin-bottom:6px"><a href="/belasting-besparen/">Belasting besparen als nomad</a></p>
+          <p style="margin-bottom:6px"><a href="/183-2/">De 183-dagenregeling</a></p>
+          <p style="margin-bottom:0"><a href="/blog/">Alle artikelen</a></p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/country-visum.html?raw';
+---
+<PageLayout
+  title="Wonen & werken in [zb_mp_land]"
+  metaTitle="Country visum - Digitalnomad.nl"
+  description="Wonen & werken in [zb_mp_land] Stramien inleiding. Populatie [zb_mp_populatie] Hoofdstad [zb_mp_hoofdstad] Klimaat [zb_mp_klimaat] Taal [zb_mp_taal] Telefoon Code [zb_mp_dialcode] Wil je meer weten over de visa mogelijkheden? Laat dan hier je gegevens achter! Populaire bestemmingen in [zb_mp_land] [zb_mp_locatie1] [zb_mp_locatie2] [zb_mp_locatie3] [zb_mp_locatie4] [zb_mp_content2] Veel gestelde vragen Turpis et ornare fermentum volutpat commodo? Dictum maecenas vulputate volutpat […]"
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

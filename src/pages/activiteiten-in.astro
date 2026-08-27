@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/activiteiten-in.html?raw';
+---
+<PageLayout
+  title="Activiteiten in [zb_mp_locatie]"
+  metaTitle="Activiteiten in [zb_mp_locatie] | Ontdek de stad!"
+  description="Een kleine citytrip in [zb_mp_locatie] of er een maand verblijven om (online) te werken? Zie hier de beste tips voor activiteiten in [zb_mp_locatie]!"
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

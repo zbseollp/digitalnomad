@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/veiligheid-in.html?raw';
+---
+<PageLayout
+  title="Veiligheid in [zb_mp_locatie]"
+  metaTitle="Veiligheid in [zb_mp_locatie] | Hoe veilig is [zb_mp_locatie]?"
+  description="Is het veilig in [zb_mp_locatie] voor digital nomads? En hoe zit het met de criminaliteit in [zb_mp_locatie] ? Kun je veilig alleen reizen in [zb_mp_locatie]?"
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>

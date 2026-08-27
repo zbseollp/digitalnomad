@@ -1,0 +1,11 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/privacy-policy.html?raw';
+---
+<PageLayout
+  title="Privacy policy"
+  metaTitle="Privacy Policy - Digitalnomad.nl"
+  description="Privacy policy Digitalnomad.nl respecteert de privacy van alle gebruikers van haar site en draagt er zorg voor dat de persoonlijke informatie die u ons verschaft altijd vertrouwelijk wordt behandeld.Wij gebruiken uw gegevens alleen om diensten waar u om gevraagd heeft te voldoen. Uw persoonlijke gegevens: We zullen uw persoonlijke gegevens zonder uw toestemming niet ter […]"
+>
+  <Fragment set:html={html} />
+</PageLayout>

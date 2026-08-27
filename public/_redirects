@@ -1,0 +1,17 @@
+# Affiliate-uitgang, 1-op-1 overgenomen van de WordPress-bron.
+# LET OP: FTX is failliet; deze link levert niets meer op en kan beter verwijderd worden.
+/open/ftx/  https://ftx.com/referrals#a=nftpromotion  302
+
+# Paginering van de oude blog-archieven (nu één doorlopende lijst)
+/blog/page/*             /blog/     301
+/category/:cat/page/*    /category/:cat/   301
+
+# URL's die op de bron een 404 gaven maar wel intern gelinkt werden
+/wonen-werken-in-oekra%C3%AFne/  /bestemmingen/      301
+/eten-en-drinken-in-athens/      /eten-en-drinken-in-athene/  301
+/cryptocurrency/                 /category/crypto/   301
+/ripple-koers-verwachting-2022/  /category/crypto/   301
+/bitcoin-koers-verwachting-2022/ /category/crypto/   301
+
+# Gehackte spampagina van de bron - niet gemigreerd
+/cox-htm/  /  301

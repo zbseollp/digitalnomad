@@ -1,0 +1,12 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import html from '../html/winkelwagen.html?raw';
+---
+<PageLayout
+  title="Winkelmand"
+  metaTitle="Winkelmand - Digitalnomad.nl"
+  description=""
+  noindex={true}
+>
+  <Fragment set:html={html} />
+</PageLayout>
