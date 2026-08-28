@@ -1,0 +1,62 @@
+---
+export interface Props {
+  current: number;
+  last: number;
+  /** page 1 lives here, e.g. "/blog/" */
+  base: string;
+  /** pages 2+ live at `${base}page/${n}/` */
+  span?: number;
+}
+const { current, last, base, span = 2 } = Astro.props;
+
+const href = (n: number) => (n === 1 ? base : `${base}page/${n}/`);
+
+let from = Math.max(1, current - span);
+let to = Math.min(last, current + span);
+if (to - from < span * 2) {
+  from = Math.max(1, to - span * 2);
+  to = Math.min(last, from + span * 2);
+}
+const numbers = Array.from({ length: to - from + 1 }, (_, i) => from + i);
+---
+{last > 1 && (
+  <nav class="pagination" aria-label="Paginering">
+    {current > 1 ? (
+      <a class="page-link page-arrow" href={href(current - 1)} rel="prev">
+        <span aria-hidden="true">&laquo;</span> Vorige
+      </a>
+    ) : (
+      <span class="page-link page-arrow is-disabled"><span aria-hidden="true">&laquo;</span> Vorige</span>
+    )}
+
+    {from > 1 && (
+      <>
+        <a class="page-link" href={href(1)}>1</a>
+        {from > 2 && <span class="page-gap" aria-hidden="true">&hellip;</span>}
+      </>
+    )}
+
+    {numbers.map((n) =>
+      n === current ? (
+        <span class="page-link is-current" aria-current="page"><span class="sr-only">Pagina </span>{n}</span>
+      ) : (
+        <a class="page-link" href={href(n)}><span class="sr-only">Pagina </span>{n}</a>
+      )
+    )}
+
+    {to < last && (
+      <>
+        {to < last - 1 && <span class="page-gap" aria-hidden="true">&hellip;</span>}
+        <a class="page-link" href={href(last)}>{last}</a>
+      </>
+    )}
+
+    {current < last ? (
+      <a class="page-link page-arrow" href={href(current + 1)} rel="next">
+        Volgende <span aria-hidden="true">&raquo;</span>
+      </a>
+    ) : (
+      <span class="page-link page-arrow is-disabled">Volgende <span aria-hidden="true">&raquo;</span></span>
+    )}
+  </nav>
+)}

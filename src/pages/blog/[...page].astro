@@ -1,0 +1,74 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostGrid from '../../components/PostGrid.astro';
+import Pagination from '../../components/Pagination.astro';
+
+const PER_PAGE = 10;
+
+export async function getStaticPaths() {
+  const posts = (await getCollection('blog'))
+    .filter((p) => !(p.data.categories ?? []).includes('Bestemmingen'))
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+  const perPage = 10;
+  const last = Math.max(1, Math.ceil(posts.length / perPage));
+
+  return Array.from({ length: last }, (_, i) => {
+    const n = i + 1;
+    return {
+      // page 1 -> /blog/, page n -> /blog/page/n/  (same as the old WordPress site)
+      params: { page: n === 1 ? undefined : `page/${n}` },
+      props: {
+        posts: posts.slice(i * perPage, (i + 1) * perPage),
+        current: n,
+        last,
+        total: posts.length,
+      },
+    };
+  });
+}
+
+const { posts, current, last, total } = Astro.props;
+
+const cats = ['Bedrijven', 'Blog', 'Crypto', 'Marketing', 'Nieuws', 'Reizen', 'Spotify', 'TikTok', 'Overig', 'Vervoer'];
+const slugFor: Record<string, string> = {
+  Bedrijven: 'bedrijven', Blog: 'blog', Crypto: 'crypto', Marketing: 'marketing', Nieuws: 'nieuws',
+  Reizen: 'reizen', Spotify: 'spotify', TikTok: 'tiktok', Overig: 'uncategorized', Vervoer: 'vervoer',
+};
+
+const site = 'https://digitalnomad.nl';
+const url = (n: number) => (n === 1 ? '/blog/' : `/blog/page/${n}/`);
+const title = current === 1 ? 'Blog - Digitalnomad.nl' : `Blog - pagina ${current} van ${last} - Digitalnomad.nl`;
+---
+<BaseLayout
+  title={title}
+  description="Alle artikelen van Digitalnomad.nl: nieuws, ervaringen, financiën en praktische tips voor digital nomads."
+>
+  <Fragment slot="head">
+    {current > 1 && <link rel="prev" href={new URL(url(current - 1), site).href} />}
+    {current < last && <link rel="next" href={new URL(url(current + 1), site).href} />}
+  </Fragment>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>Blogs</h1>
+      <p>
+        {total} artikelen over locatie-onafhankelijk werken, reizen, geld en belastingen. Meest recente eerst.
+        {last > 1 && <> Pagina {current} van {last}.</>}
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      {current === 1 && (
+        <div class="chips" style="margin-bottom:30px">
+          {cats.map((c) => <a href={`/category/${slugFor[c]}/`}>{c}</a>)}
+        </div>
+      )}
+      <PostGrid posts={posts} />
+      <Pagination current={current} last={last} base="/blog/" />
+    </div>
+  </section>
+</BaseLayout>

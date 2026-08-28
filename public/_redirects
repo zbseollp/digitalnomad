@@ -2,8 +2,8 @@
 # LET OP: FTX is failliet; deze link levert niets meer op en kan beter verwijderd worden.
 /open/ftx/  https://ftx.com/referrals#a=nftpromotion  302
 
-# Paginering van de oude blog-archieven (nu één doorlopende lijst)
-/blog/page/*             /blog/     301
+# Categorie-archieven hebben nog geen paginering; hun /page/N/ valt terug op pagina 1.
+# /blog/page/N/ wordt wel echt gegenereerd en mag hier dus niet meer staan.
 /category/:cat/page/*    /category/:cat/   301
 
 # URL's die op de bron een 404 gaven maar wel intern gelinkt werden

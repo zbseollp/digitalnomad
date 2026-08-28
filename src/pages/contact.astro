@@ -1,11 +1,70 @@
 ---
-import PageLayout from '../layouts/PageLayout.astro';
-import html from '../html/contact.html?raw';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ContactForm from '../components/ContactForm.astro';
+
+const WEB3FORMS_KEY = '281f477d-7744-407d-9b6a-9b8d9c6abe3c';
+const TURNSTILE_SITEKEY = '0x4AAAAAAEeNMm1C8RAt54Gh';
 ---
-<PageLayout
-  title="Contact"
-  metaTitle="Contact - Digitalnomad.nl"
-  description="Contact Heb je een vraag of opmerking over onze website? Neem dan contact op met ons team door onderstaand formulier in te vullen. Iemand van ons team zal zo snel mogelijk contact met je opnemen. Ben je een adverteerder en wil je reclame maken op onze website? Vul dan onderstaand formulier in. Wij zullen dan […]"
+<BaseLayout
+  title="Contact - Digitalnomad.nl"
+  description="Een vraag of opmerking over Digitalnomad.nl, of interesse in adverteren? Vul het contactformulier in en ons team neemt zo snel mogelijk contact met je op."
 >
-  <Fragment set:html={html} />
-</PageLayout>
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="crumbs"><a href="/">Home</a><span>/</span><span style="opacity:1;color:#a9bce4">Contact</span></p>
+      <h1>Contact</h1>
+      <p>
+        Een vraag of opmerking over de website, of wil je adverteren? Vul het formulier in, dan neemt iemand van ons
+        team zo snel mogelijk contact met je op.
+      </p>
+    </div>
+  </section>
+
+  <div class="article">
+    <div class="wrap article-layout">
+      <article>
+        <div class="prose" style="margin-bottom:34px">
+          <h2 style="margin-top:0">Stuur ons een bericht</h2>
+          <p>
+            Heb je een vraag of opmerking over onze website? Neem contact op met ons team door onderstaand formulier in
+            te vullen. Ben je adverteerder en wil je adverteren op Digitalnomad.nl? Gebruik dan hetzelfde formulier en
+            vermeld dat in je bericht &mdash; dan sturen we je onze mogelijkheden en tarieven toe.
+          </p>
+        </div>
+
+        <ContactForm
+          accessKey={WEB3FORMS_KEY}
+          turnstileSiteKey={TURNSTILE_SITEKEY}
+          subject="Nieuw bericht via Digitalnomad.nl"
+          siteName="Digitalnomad.nl"
+        />
+
+        <div class="prose" style="margin-top:40px">
+          <h2>Waar we je wél en niet mee kunnen helpen</h2>
+          <p>
+            We beantwoorden graag vragen over de informatie op deze site, samenwerkingen en adverteren. Voor
+            persoonlijk advies over visa, belastingaangifte of verzekeringen verwijzen we je door naar een
+            gespecialiseerde adviseur &mdash; onze artikelen zijn algemene informatie en geen persoonlijk advies.
+          </p>
+        </div>
+      </article>
+
+      <aside class="aside">
+        <div class="box accent">
+          <h3>Adverteren?</h3>
+          <p>Vermeld het in je bericht, dan sturen we je de mogelijkheden en tarieven toe.</p>
+          <a class="btn btn-sky no-arrow" href="#contactform">Naar het formulier</a>
+        </div>
+        <div class="box">
+          <h3>Misschien zoek je dit</h3>
+          <div class="links">
+            <a href="/bestemmingen/">Alle bestemmingen</a>
+            <a href="/belasting-besparen/">Belasting besparen</a>
+            <a href="/183-2/">183-dagenregeling</a>
+            <a href="/blog/">Alle artikelen</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>
