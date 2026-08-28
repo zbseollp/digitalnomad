@@ -1,9 +1,11 @@
----
-import { getCollection } from 'astro:content';
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import PostGrid from '../../components/PostGrid.astro';
+export interface CatMeta {
+  label: string;
+  title: string;
+  description: string;
+}
 
-const CATS: Record<string, { label: string; title: string; description: string }> = {
+/** Categorie-archieven, met de slugs en titels van de WordPress-bron. */
+export const CATS: Record<string, CatMeta> = {
   bedrijven: { label: 'Bedrijven', title: 'Bedrijven Archieven - Digitalnomad.nl', description: 'Artikelen over ondernemen en bedrijven voor digital nomads.' },
   blog: { label: 'Blog', title: 'Blog Archieven - Digitalnomad.nl', description: 'Alle blogartikelen van Digitalnomad.nl.' },
   crypto: { label: 'Crypto', title: 'Crypto Archieven - Digitalnomad.nl', description: 'Alles over cryptocurrency, beleggen en verdienen als digital nomad.' },
@@ -15,35 +17,3 @@ const CATS: Record<string, { label: string; title: string; description: string }
   uncategorized: { label: 'Overig', title: 'Uncategorized Archieven - Digitalnomad.nl', description: 'Overige artikelen van Digitalnomad.nl.' },
   vervoer: { label: 'Vervoer', title: 'vervoer Archieven - Digitalnomad.nl', description: 'Artikelen over vervoer en onderweg zijn.' },
 };
-
-export async function getStaticPaths() {
-  return Object.keys({
-    bedrijven: 1, blog: 1, crypto: 1, marketing: 1, nieuws: 1,
-    reizen: 1, spotify: 1, tiktok: 1, uncategorized: 1, vervoer: 1,
-  }).map((slug) => ({ params: { slug } }));
-}
-
-const { slug } = Astro.params;
-const meta = CATS[slug as string];
-const posts = (await getCollection('blog'))
-  .filter((p) => (p.data.categories ?? []).includes(meta.label))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
----
-
-<BaseLayout title={meta.title} description={meta.description}>
-  <section class="page-hero">
-    <div class="wrap">
-      <h1>{meta.label}</h1>
-      <p>{posts.length} {posts.length === 1 ? 'artikel' : 'artikelen'} in deze categorie.</p>
-    </div>
-  </section>
-  <section>
-    <div class="wrap">
-      {posts.length > 0 ? (
-        <PostGrid posts={posts} kicker={false} />
-      ) : (
-        <p>Er staan nog geen artikelen in deze categorie. <a href="/blog/">Bekijk alle artikelen</a>.</p>
-      )}
-    </div>
-  </section>
-</BaseLayout>

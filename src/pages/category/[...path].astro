@@ -1,0 +1,71 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PostGrid from '../../components/PostGrid.astro';
+import Pagination from '../../components/Pagination.astro';
+import { CATS } from '../../data/categories';
+
+
+export async function getStaticPaths() {
+  // De bron toont 10 artikelen per archiefpagina, net als de blogindex.
+  const perPage = 10;
+  const all = await getCollection('blog');
+
+  return Object.entries(CATS).flatMap(([slug, meta]) => {
+    const posts = all
+      .filter((p) => (p.data.categories ?? []).includes(meta.label))
+      .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+    const last = Math.max(1, Math.ceil(posts.length / perPage));
+
+    return Array.from({ length: last }, (_, i) => {
+      const n = i + 1;
+      return {
+        // /category/nieuws/ en /category/nieuws/page/2/
+        params: { path: n === 1 ? slug : `${slug}/page/${n}` },
+        props: {
+          slug,
+          posts: posts.slice(i * perPage, (i + 1) * perPage),
+          current: n,
+          last,
+          total: posts.length,
+        },
+      };
+    });
+  });
+}
+
+const { slug, posts, current, last, total } = Astro.props;
+const meta = CATS[slug];
+
+const site = 'https://www.digitalnomad.nl';
+const url = (n: number) => (n === 1 ? `/category/${slug}/` : `/category/${slug}/page/${n}/`);
+const title = current === 1 ? meta.title : `${meta.label} Archieven - pagina ${current} van ${last} - Digitalnomad.nl`;
+---
+<BaseLayout title={title} description={meta.description}>
+  <Fragment slot="head">
+    {current > 1 && <link rel="prev" href={new URL(url(current - 1), site).href} />}
+    {current < last && <link rel="next" href={new URL(url(current + 1), site).href} />}
+  </Fragment>
+
+  <section class="page-hero">
+    <div class="wrap">
+      <h1>{meta.label}</h1>
+      <p>
+        {total} {total === 1 ? 'artikel' : 'artikelen'} in deze categorie.
+        {last > 1 && <> Pagina {current} van {last}.</>}
+      </p>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      {posts.length > 0 ? (
+        <>
+          <PostGrid posts={posts} kicker={false} />
+          <Pagination current={current} last={last} base={`/category/${slug}/`} />
+        </>
+      ) : (
+        <p>Er staan nog geen artikelen in deze categorie. <a href="/blog/">Bekijk alle artikelen</a>.</p>
+      )}
+    </div>
+  </section>
+</BaseLayout>

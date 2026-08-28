@@ -1,6 +1,9 @@
 import { defineConfig } from 'astro/config';
 
 import sitemap from '@astrojs/sitemap';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 /* Pagina's die op noindex staan (WooCommerce-schermen en Elementor-templates
    die nog placeholders bevatten) horen niet in de XML-sitemap. */
